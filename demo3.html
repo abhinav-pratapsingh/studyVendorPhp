@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <base href="/" />
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      <title>Income Tax Calculator</title>
+
+      <link rel="stylesheet" href="https://www.adityabirlacapital.com/abc-of-calculators/assests/css/style.min.css" />
+      <link rel="stylesheet" href="https://www.adityabirlacapital.com/abc-of-calculators/assests/css/custom.css" />
+      <link rel="stylesheet" href="https://www.adityabirlacapital.com/abc-of-calculators/assests/css/calculator.css" />
+      <link rel="stylesheet" href="https://www.adityabirlacapital.com/abc-of-calculators/assests/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="https://www.adityabirlacapital.com/abc-of-calculators/assests/css/swiper-bundle.min.css" />
+      <link rel="stylesheet" href="https://www.adityabirlacapital.com/assets/header/css/common.css" />
+      <link rel="stylesheet" href="https://www.adityabirlacapital.com/abc-of-calculators/assests/css/header.css" />
+      <link rel="stylesheet" href="https://www.adityabirlacapital.com/abc-of-calculators/assests/css/footer.css" />
+      <link rel="stylesheet" href="https://www.adityabirlacapital.com/abc-of-calculators/assests/css/aneklatinfonts.css" />
+      <script>
+         (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+               "gtm.start": new Date().getTime(),
+               event: "gtm.js",
+            });
+            var f = d.getElementsByTagName(s)[0],
+               j = d.createElement(s),
+               dl = l != "dataLayer" ? "&l=" + l : "";
+            j.async = true;
+            j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+            f.parentNode.insertBefore(j, f);
+         })(window, document, "script", "dataLayer", "GTM-PCGF393");
+      </script>
+      <script src="https://www.adityabirlacapital.com/abc-of-calculators/assests/js/jquery-2.1.3.min.js"></script>
+      <script src="https://www.adityabirlacapital.com/abc-of-calculators/assests/js/bootstrap.min.js"></script>
+      <script src="https://www.adityabirlacapital.com/abc-of-calculators/assests/js/jquery-ui.min.js"></script>
+
+      <script type="text/javascript" src="https://www.adityabirlacapital.com/abc-of-calculators/assests/Header/js/popper.min.js"></script>
+   </head>
+   <body>
+      <noscript>
+         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PCGF393" height="0" width="0" style="display: none; visibility: hidden"></iframe>
+      </noscript>
+      <div id="body-container" class="body-container">
+         <script>
+            var black = "#000000";
+            var white = "#ffffff";
+            var abc_primary = "#C91429";
+
+            var dev_light = "dev_light";
+            var dev_reg = "dev_reg";
+            var dev_med = "dev_med";
+            var dev_semi_bold = "dev_semi_bold";
+            var dev_bold = "dev_bold";
+
+            let lastScrollTop = 0;
+            const main_headers = document.querySelectorAll(".top_header, .primary_header, .level_3");
+
+            window.addEventListener("scroll", () => {
+               let scrollTop = window.scrollY || window.pageYOffset;
+
+               if (scrollTop > lastScrollTop) {
+                  // Scrolling down
+                  main_headers.forEach((header) => {
+                     header.classList.add("scrolled");
+                  });
+               } else {
+                  // Scrolling up
+                  main_headers.forEach((header) => {
+                     header.classList.remove("scrolled");
+                  });
+               }
+
+               lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
+            });
+
+            document.body.addEventListener("click", function (event) {
+               var dropdownMenus = document.querySelectorAll(".dropdown-menu");
+               var overlayButtons = document.querySelectorAll(".overlay-btn");
+
+               // Check if the clicked element is any of the overlay buttons
+               if (Array.from(overlayButtons).includes(event.target)) {
+                  document.body.classList.add("overlaynew1");
+               } else {
+                  // Iterate over each dropdown menu
+                  dropdownMenus.forEach(function (dropdownMenu) {
+                     // Check if the dropdown-menu element has the class 'show'
+                     if (dropdownMenu.classList.contains("show")) {
+                        document.body.classList.remove("overlaynew1");
+                     }
+                  });
+               }
+            });
+
+            document.addEventListener("DOMContentLoaded", function () {
+               var abcSolutionsMob = document.querySelector(".abc_solutions_mob");
+               var body = document.querySelector("body");
+
+               abcSolutionsMob.addEventListener("click", function () {
+                  this.classList.toggle("abc_solutions_mob_open");
+                  body.classList.toggle("overlay_mob");
+               });
+            });
+
+            document.addEventListener("DOMContentLoaded", function () {
+               (function () {
+                  var hamburgerMenu = document.querySelector(".hamburger-menu-bar");
+                  var bars = document.querySelectorAll(".bar");
+                  var mobileMenuWrapper = document.querySelector(".mobileMenuWrapper");
+                  var hasChildren = document.querySelectorAll(".has-children");
+
+                  hamburgerMenu.addEventListener("click", function () {
+                     bars.forEach(function (bar) {
+                        bar.classList.toggle("animate");
+                     });
+                     mobileMenuWrapper.classList.toggle("active");
+                     return false;
+                  });
+
+                  hasChildren.forEach(function (item) {
+                     item.addEventListener("click", function () {
+                        var submenu = this.querySelector("ul");
+                        submenu.style.display = submenu.style.display === "block" ? "none" : "block";
+                        var arrowIcon = this.querySelector(".icon-arrow");
+                        arrowIcon.classList.toggle("open");
+                     });
+                  });
+               })();
+            });
+
+            document.addEventListener("DOMContentLoaded", function () {
+               var menuItemsModal1 = document.querySelectorAll(".mainMenuMob .level1-items");
+
+               menuItemsModal1.forEach(function (item) {
+                  item.addEventListener("click", function (event) {
+                     if (event.target.classList.contains("backButtonArea")) {
+                        menuItemsModal1.forEach(function (menuItem) {
+                           menuItem.classList.remove("levelModalOpen");
+                        });
+                     } else {
+                        menuItemsModal1.forEach(function (menuItem) {
+                           menuItem.classList.remove("levelModalOpen");
+                        });
+                        this.classList.add("levelModalOpen");
+                     }
+                  });
+               });
+
+               var menuItemsLevel2 = document.querySelectorAll(".mainMenuMob-level2 .level2-items");
+
+               menuItemsLevel2.forEach(function (itemlevelTwo) {
+                  itemlevelTwo.addEventListener("click", function (event) {
+                     if (event.target.classList.contains("backButtonAreaLevel2")) {
+                        menuItemsLevel2.forEach(function (menuItemLevel2) {
+                           menuItemLevel2.classList.remove("levelModalOpen");
+                        });
+                     } else {
+                        menuItemsLevel2.forEach(function (menuItemLevel2) {
+                           menuItemLevel2.classList.remove("levelModalOpen");
+                        });
+                        this.classList.add("levelModalOpen");
+                     }
+                  });
+               });
+            });
+
+            document.addEventListener("DOMContentLoaded", function () {
+               var acrdItems = document.querySelectorAll(".accordionwrapmain .accordion-item-mb");
+
+               acrdItems.forEach(function (item) {
+                  item.addEventListener("click", function (event) {
+                     this.classList.toggle("accrdItemShow");
+                     acrdItems.forEach(function (menuItem) {
+                        if (menuItem !== item) {
+                           menuItem.classList.remove("accrdItemShow");
+                        }
+                     });
+                  });
+               });
+            });
+
+            // mobile search code
+
+            var searchAreaMob = document.querySelector(".searchAreaMob");
+            var searchBackMob = document.querySelector(".searchBackMob");
+            var search_ico_mob = document.querySelector(".search_ico_mob");
+
+            search_ico_mob.onclick = function () {
+               searchAreaMob.classList.add("serchOpen");
+            };
+
+            searchBackMob.onclick = function () {
+               searchAreaMob.classList.remove("serchOpen");
+            };
+
+            //
+            // function dropdownclick() {
+            //     document.querySelector(".myDropdown").classList.toggle("show");
+            // }
+
+            // // Function to close the dropdown if the user clicks outside of it
+            // function closeDropdowns(event) {
+            //     if (!event.target.matches('.dropbtn')) {
+            //         var dropdowns = document.getElementsByClassName("dropdown-content");
+            //         for (var i = 0; i < dropdowns.length; i++) {
+            //             var openDropdown = dropdowns[i];
+            //             if (openDropdown.classList.contains('show')) {
+            //                 openDropdown.classList.remove('show');
+            //             }
+            //         }
+            //     }
+            // }
+
+            // // Attach event listeners
+            // document.addEventListener('click', function(event) {
+            //     if (event.target.matches('.dropbtn')) {
+            //         dropdownclick();
+            //     } else {
+            //         closeDropdowns(event);
+            //     }
+            // });
+         </script>
+
+         <script>
+            function toggleActiveClass(e) {
+               myChart.forEach(function (item, index, arr) {
+                  item.classList.remove("active");
+               });
+               e.target.classList.add("active");
+            }
+
+            function hasClass(element, className) {
+               return (" " + element.className + " ").indexOf(" " + className + " ") > -1;
+            }
+
+            var myChart = document.querySelectorAll(".menu-link.mega-menu-link");
+            myChart.forEach(function (item, index, arr) {
+               item.addEventListener("mouseover", toggleActiveClass);
+               item.addEventListener("mouseout", toggleActiveClass);
+            });
+
+            function setdefaultActive(e) {
+               var multilevel = e.target.parentElement.querySelectorAll(".mega-menu.mega-menu--multiLevel li a");
+               multilevel.forEach(function (item, index, arr) {
+                  item.classList.remove("active");
+               });
+               multilevel[0].classList.add("active");
+            }
+
+            var menubar = document.querySelectorAll(".list_inline li");
+            menubar.forEach(function (item, index, arr) {
+               item.addEventListener("click", setdefaultActive);
+            });
+
+            swiper = new Swiper(".sip_calc_nav_slider", {
+               slidesPerView: 1,
+               centeredSlides: !0,
+               spaceBetween: 10,
+               pagination: {
+                  el: ".swiper-pagination",
+                  clickable: !0,
+               },
+            });
+
+            var swiper = new Swiper(".nav_slider_Wrapper", {
+               slidesPerView: 1,
+               autoplay: !0,
+               centeredSlides: !0,
+               spaceBetween: 10,
+               pagination: {
+                  el: ".swiper-pagination",
+                  clickable: !0,
+               },
+            });
+         </script>
+
+         <script>
+            document.addEventListener("DOMContentLoaded", function () {
+               document.querySelector(".hamburger-menu-bar").addEventListener("click", toggleMenu);
+
+               function toggleMenu() {
+                  var innerDiv = document.querySelector(".downloads_abc_lob");
+                  if (innerDiv.classList.contains("visible-sticky-mob")) {
+                     innerDiv.classList.remove("visible-sticky-mob");
+                  } else {
+                     innerDiv.classList.add("visible-sticky-mob");
+                  }
+               }
+            });
+         </script>
+
+         <script>
+            // $(document).ready(function () {
+            $("#personal-mobile-topmenu").click(function () {
+               if ($(this).hasClass("selected-menu")) {
+                  return;
+               }
+               $(".utility-links-global-nav ul li").removeClass("selected-menu");
+               $(this).addClass("selected-menu");
+               $(".mobi-nav-wrapper").html("");
+               var t = $(".top-bg .nav .selected-menu").attr("id"),
+                  n = "";
+               t.includes("personal-topmenu")
+                  ? ((n = $(".top-menu").html()), $(".utility-links").css("display", "table").css("padding-top", "25px"), $("#mobileline").css("display", "table"))
+                  : ((n = $("#personal-childmenu").html()), $(".utility-links").css("display", "none"), $("#mobileline").css("display", "none"));
+               $(".mobi-nav-wrapper").html(n);
+            });
+            $("#corporate-mobile-topmenu").click(function () {
+               $(".utility-links-global-nav ul li").removeClass("selected-menu");
+               $(this).addClass("selected-menu");
+               $(".mobi-nav-wrapper").html("");
+               var t = $(".top-bg .nav .selected-menu").attr("id"),
+                  n = "";
+               t.includes("corporate")
+                  ? ((n = $(".top-menu").html()), $(".utility-links").css("display", "table").css("padding-top", "25px"), $("#mobileline").css("display", "table"))
+                  : ((n = $("#corporate-childmenu").html()), $(".utility-links").css("display", "none"), $("#mobileline").css("display", "none"));
+               $(".mobi-nav-wrapper").html(n);
+            });
+            $("#advisor-mobile-topmenu").click(function () {
+               $(".utility-links-global-nav ul li").removeClass("selected-menu");
+               $(this).addClass("selected-menu");
+               $(".mobi-nav-wrapper").html("");
+               var t = $(".top-bg .nav .selected-menu").attr("id"),
+                  n = "";
+               t.includes("advisor")
+                  ? ((n = $(".top-menu").html()), $(".utility-links").css("display", "table").css("padding-top", "25px"), $("#mobileline").css("display", "table"))
+                  : ((n = $("#advisor-childmenu").html()), $(".utility-links").css("display", "none"), $("#mobileline").css("display", "none"));
+               $(".mobi-nav-wrapper").html(n);
+            });
+            // })
+         </script>
+
+         <div class="main-content">
+            <div class="container-fluid">
+               <div class="outerpadding">
+                  <div class="two-columns">
+                     <div class="row">
+                        <div class="custom-col-container">
+                           <div class="col-md-8 col-sm-12 col-12 mx-auto">
+                              <div class="calculator-container">
+                                 <div class="calculator-card col red-calc-card">
+                                    <div class="title-card text-center">
+                                       <h1 class="calc-title">Income Tax Calculator</h1>
+                                       <h3 class="calc-subtitle">Calculate the tax payable by you based on your income</h3>
+                                    </div>
+                                    <div class="calc-form-container">
+                                       <div class="progress-section d-flex">
+                                          <ol class="calc-progress" data-steps="4">
+                                             <li id="step-basicDetails" class="active">
+                                                <span class="step"><span></span></span>
+                                                <span class="name">Basic Details</span>
+                                             </li>
+                                             <li id="step-incomeDetails">
+                                                <span class="step"><span></span></span>
+                                                <span class="name">Income Details</span>
+                                             </li>
+                                             <li id="step-deductions">
+                                                <span class="step"><span></span></span>
+                                                <span class="name">Deductions</span>
+                                             </li>
+                                             <li id="step-summary">
+                                                <span class="step"><span></span></span>
+                                                <span class="name">Summary</span>
+                                             </li>
+                                          </ol>
+                                       </div>
+                                       <form autocomplete="off" id="incomeTaxForm" class="incomeTaxForm calcForm col-field-row-2">
+                                          <div class="row">
+                                             <div id="basicDetails" class="steps basicDetails">
+                                                <div class="form-group col-field-row-2 col-12 col-sm-12 col-md-5">
+                                                   <label class="frmLbl highlightLbl">Financial Year</label>
+                                                   <div class="dd-block">
+                                                      <button type="button" class="dd-btn">
+                                                         <span id="fisplaceholder" class="dd-value financialYear">2022 - 2023</span>
+                                                         <i class="arrow-down"></i>
+                                                      </button>
+                                                      <div class="dd-menu" id="financialYearMenu">
+                                                         <!-- <a data-value="2018 - 2019" class="dd-item">2018 - 2019</a>
+                                                            <a data-value="2019 - 2020" class="dd-item">2019 - 2020</a> -->
+                                                         <a data-value="2020 - 2021" id="currentfiscalyear" class="dd-item">2020 - 2021</a>
+                                                         <a data-value="2020 - 2021" id="lastfiscalyear" class="dd-item">2020 - 2021</a>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <div class="form-group col-field-row-2 col-12 col-sm-12 col-md-5">
+                                                   <label class="frmLbl highlightLbl">Current Age</label>
+                                                   <div class="dd-block">
+                                                      <button type="button" class="dd-btn">
+                                                         <span class="dd-value currentAge">Below 60</span>
+                                                         <i class="arrow-down"></i>
+                                                      </button>
+                                                      <div class="dd-menu" id="currentAgeMenu">
+                                                         <a data-value="Below 60" class="dd-item">Below 60</a>
+                                                         <a data-value="60 - 80" class="dd-item">60 - 80</a>
+                                                         <a data-value="80 & above" class="dd-item">80 & above</a>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div id="incomeDetails" class="steps incomeDetails" style="display: none">
+                                                <div class="form-group highlightBox">
+                                                   <label id="amountFieldId" class="frmLbl highlightLbl">
+                                                      Salary Income
+                                                      <span class="info-sec">
+                                                         <i id="roiInfo" class="info-icon"></i>
+                                                         <span id="roiInfoContent" class="info-content"> Salary before reducing exemptions (HRA, LTA), standard deduction & professional tax </span>
+                                                      </span>
+                                                   </label>
+                                                   <div class="inputBox rupeeBox">
+                                                      <span class="inputLegend pre"> &#8377; </span>
+                                                      <input autocomplete="off" type="text" id="salaryIncome" name="salaryIncome" class="form-control inputElem amountElem" maxlength="12" min="100000" max="12000000" value="0" />
+                                                      <span id="amount-field-info" class="field-info"> </span>
+                                                   </div>
+                                                </div>
+                                                <div class="form-group highlightBox">
+                                                   <label id="amountFieldId" class="frmLbl highlightLbl">
+                                                      Rental Income
+                                                      <span class="info-sec">
+                                                         <i id="roiInfo" class="info-icon"></i>
+                                                         <span id="roiInfoContent" class="info-content"> Annual rent received on let-out property </span>
+                                                      </span>
+                                                   </label>
+                                                   <div class="inputBox rupeeBox">
+                                                      <span class="inputLegend pre"> &#8377; </span>
+                                                      <input autocomplete="off" type="text" id="rentalIncome" name="rentalIncome" class="form-control inputElem amountElem" maxlength="12" min="100000" max="12000000" value="0" />
+                                                      <span id="amount-field-info" class="field-info"> </span>
+                                                   </div>
+                                                </div>
+                                                <div class="form-group highlightBox">
+                                                   <label id="amountFieldId" class="frmLbl highlightLbl">
+                                                      Other Income
+                                                      <span class="info-sec">
+                                                         <i id="roiInfo" class="info-icon"></i>
+                                                         <span id="roiInfoContent" class="info-content"> Includes taxable freelancing income or any other taxable income </span>
+                                                      </span>
+                                                   </label>
+                                                   <div class="inputBox rupeeBox">
+                                                      <span class="inputLegend pre"> &#8377; </span>
+                                                      <input autocomplete="off" type="text" id="otherIncome" name="otherIncome" class="form-control inputElem amountElem" maxlength="12" min="100000" max="12000000" value="0" />
+                                                      <span id="amount-field-info" class="field-info"> </span>
+                                                   </div>
+                                                </div>
+                                                <div class="form-group highlightBox">
+                                                   <label id="amountFieldId" class="frmLbl highlightLbl">
+                                                      Interest paid on Home Loan
+                                                      <span class="info-sec">
+                                                         <i id="roiInfo" class="info-icon"></i>
+                                                         <span id="roiInfoContent" class="info-content"> Interest paid on housing loan taken for self-occupied property </span>
+                                                      </span>
+                                                   </label>
+                                                   <div class="inputBox rupeeBox">
+                                                      <span class="inputLegend pre"> &#8377; </span>
+                                                      <input autocomplete="off" type="text" id="interestPaidOnHomeLoan" name="interestPaidOnHomeLoan" class="form-control inputElem amountElem" maxlength="12" min="100000" max="12000000" value="0" />
+                                                      <span id="amount-field-info" class="field-info"> </span>
+                                                   </div>
+                                                </div>
+                                                <div class="form-group highlightBox">
+                                                   <label id="amountFieldId" class="frmLbl highlightLbl">
+                                                      Interest Income
+                                                      <span class="info-sec">
+                                                         <i id="roiInfo" class="info-icon"></i>
+                                                         <span id="roiInfoContent" class="info-content"> Includes interest from savings bank, deposits and other interest </span>
+                                                      </span>
+                                                   </label>
+                                                   <div class="inputBox rupeeBox">
+                                                      <span class="inputLegend pre"> &#8377; </span>
+                                                      <input autocomplete="off" type="text" id="interestIncome" name="interestIncome" class="form-control inputElem amountElem" maxlength="12" min="100000" max="12000000" value="0" />
+                                                      <span id="amount-field-info" class="field-info"> </span>
+                                                   </div>
+                                                </div>
+                                                <div class="form-group highlightBox">
+                                                   <label id="amountFieldId" class="frmLbl highlightLbl">
+                                                      Interest paid on Loan
+                                                      <span class="info-sec">
+                                                         <i id="roiInfo" class="info-icon"></i>
+                                                         <span id="roiInfoContent" class="info-content"> Interest paid on housing loan taken for rented/let-out property </span>
+                                                      </span>
+                                                   </label>
+                                                   <div class="inputBox rupeeBox">
+                                                      <span class="inputLegend pre"> &#8377; </span>
+                                                      <input autocomplete="off" type="text" id="interestPaidOnLoan" name="interestPaidOnLoan" class="form-control inputElem amountElem" maxlength="12" min="100000" max="12000000" value="0" />
+                                                      <span id="amount-field-info" class="field-info"> </span>
+                                                   </div>
+                                                </div>
+                                                <div class="form-group highlightBox">
+                                                   <label id="amountFieldId" class="frmLbl highlightLbl"
+                                                      >Exemptions & Deductions from Salary
+                                                      <span class="info-sec">
+                                                         <i id="roiInfo" class="info-icon"></i>
+                                                         <span id="roiInfoContent" class="info-content"> HRA, LTA, Standard Deduction, etc </span>
+                                                      </span>
+                                                   </label>
+                                                   <div class="inputBox rupeeBox">
+                                                      <span class="inputLegend pre"> &#8377; </span>
+                                                      <input autocomplete="off" type="text" id="exemption" name="exemption" class="form-control inputElem amountElem" maxlength="12" min="100000" max="12000000" value="0" />
+                                                      <span id="amount-field-info" class="field-info"> </span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div id="deductions" class="steps deductions" style="display: none">
+                                                <div class="form-group highlightBox">
+                                                   <label id="amountFieldId" class="frmLbl highlightLbl">
+                                                      Deductions Under-80C (Max 1.5L)
+                                                      <span class="info-sec">
+                                                         <i id="roiInfo" class="info-icon"></i>
+                                                         <span id="roiInfoContent" class="info-content"> Amount invested/paid in tax saving instruments such as PPF, ELSS mutual funds, LIC premium, etc </span>
+                                                      </span>
+                                                   </label>
+                                                   <div class="inputBox rupeeBox">
+                                                      <span class="inputLegend pre"> &#8377; </span>
+                                                      <input autocomplete="off" type="text" id="deduction80C" name="deduction80C" class="form-control inputElem amountElem" maxlength="12" min="100000" max="12000000" value="0" />
+                                                      <span id="amount-field-info" class="field-info"> </span>
+                                                   </div>
+                                                </div>
+                                                <div class="form-group highlightBox">
+                                                   <label id="amountFieldId" class="frmLbl highlightLbl">
+                                                      Medical Insurance - 80D
+                                                      <span class="info-sec">
+                                                         <i id="roiInfo" class="info-icon"></i>
+                                                         <span id="roiInfoContent" class="info-content"> Medical premium & preventive health checkup fees paid for self & family including parents </span>
+                                                      </span>
+                                                   </label>
+                                                   <div class="inputBox rupeeBox">
+                                                      <span class="inputLegend pre"> &#8377; </span>
+                                                      <input autocomplete="off" type="text" id="medicalInsurance" name="medicalInsurance" class="form-control inputElem amountElem" maxlength="12" min="100000" max="12000000" value="0" />
+                                                      <span id="amount-field-info" class="field-info"> </span>
+                                                   </div>
+                                                </div>
+                                                <div class="form-group highlightBox">
+                                                   <label id="amountFieldId" class="frmLbl highlightLbl">
+                                                      Contribution to NPS - 80CCD
+                                                      <span class="info-sec">
+                                                         <i id="roiInfo" class="info-icon"></i>
+                                                         <span id="roiInfoContent" class="info-content"> Includes voluntary contribution to National Pension Scheme (NPS) under section 80CCD(1) and 80CCD(1B) </span>
+                                                      </span>
+                                                   </label>
+                                                   <div class="inputBox rupeeBox">
+                                                      <span class="inputLegend pre"> &#8377; </span>
+                                                      <input autocomplete="off" type="text" id="npsContribution" name="npsContribution" class="form-control inputElem amountElem" maxlength="12" min="100000" max="12000000" value="0" />
+                                                      <span id="amount-field-info" class="field-info"> </span>
+                                                   </div>
+                                                </div>
+                                                <div class="form-group highlightBox">
+                                                   <label id="amountFieldId" class="frmLbl highlightLbl">
+                                                      Interest on Education Loan-80E
+                                                      <span class="info-sec">
+                                                         <i id="roiInfo" class="info-icon"></i>
+                                                         <span id="roiInfoContent" class="info-content"> Amount of interest paid on loan taken for higher education </span>
+                                                      </span>
+                                                   </label>
+                                                   <div class="inputBox rupeeBox">
+                                                      <span class="inputLegend pre"> &#8377; </span>
+                                                      <input autocomplete="off" type="text" id="educationLoanInterest" name="educationLoanInterest" class="form-control inputElem amountElem" maxlength="12" min="100000" max="12000000" value="0" />
+                                                      <span id="amount-field-info" class="field-info"> </span>
+                                                   </div>
+                                                </div>
+                                                <div class="form-group highlightBox">
+                                                   <label id="amountFieldId" class="frmLbl highlightLbl">
+                                                      Interest from Deposits- 80<span id="ttaText">TTA</span>
+                                                      <span class="info-sec">
+                                                         <i id="roiInfo" class="info-icon"></i>
+                                                         <span id="roiInfoContent" class="info-content"> Includes voluntary contribution to National Pension Scheme (NPS) under section 80CCD(1) and 80CCD(1B) </span>
+                                                      </span>
+                                                   </label>
+                                                   <div class="inputBox rupeeBox">
+                                                      <span class="inputLegend pre"> &#8377; </span>
+                                                      <input autocomplete="off" type="text" id="interestFromDeposit" name="interestFromDeposit" class="form-control inputElem amountElem" maxlength="12" min="100000" max="12000000" value="0" />
+                                                      <span id="amount-field-info" class="field-info"> </span>
+                                                   </div>
+                                                </div>
+                                                <div class="form-group highlightBox">
+                                                   <label id="amountFieldId" class="frmLbl highlightLbl">
+                                                      Interest on Home Loan- 80EEA
+                                                      <span class="info-sec">
+                                                         <i id="roiInfo" class="info-icon"></i>
+                                                         <span id="roiInfoContent" class="info-content"> Amount of interest paid on housing loan sanctioned during FY 19-20 </span>
+                                                      </span>
+                                                   </label>
+                                                   <div class="inputBox rupeeBox">
+                                                      <span class="inputLegend pre"> &#8377; </span>
+                                                      <input autocomplete="off" type="text" id="interestOnHomeLoan" name="interestOnHomeLoan" class="form-control inputElem amountElem" maxlength="12" min="100000" max="12000000" value="0" />
+                                                      <span id="amount-field-info" class="field-info"> </span>
+                                                   </div>
+                                                </div>
+                                                <div class="form-group highlightBox">
+                                                   <label id="amountFieldId" class="frmLbl highlightLbl"
+                                                      >Donations to charity- 80G
+                                                      <span class="info-sec">
+                                                         <i id="roiInfo" class="info-icon"></i>
+                                                         <span id="roiInfoContent" class="info-content"> Amount paid as donation to charitable insitutions or certain recognized funds </span>
+                                                      </span>
+                                                   </label>
+                                                   <div class="inputBox rupeeBox">
+                                                      <span class="inputLegend pre"> &#8377; </span>
+                                                      <input autocomplete="off" type="text" id="donation" name="donation" class="form-control inputElem amountElem" maxlength="12" min="100000" max="12000000" value="0" />
+                                                      <span id="amount-field-info" class="field-info"> </span>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div id="summary" class="steps summary justify-content-around" style="display: none">
+                                                <div class="col-12 col-sm-12 col-md-9 align-items-start">
+                                                   <div class="calc-result-card hra-res-card red-result-card col-12 col-sm-12 p-0">
+                                                      <div class="calc-result-content">
+                                                         <div class="d-flex summary-calc-header">
+                                                            <div class="col-12 col-sm-12 col-md-4"></div>
+                                                            <div class="col-6 col-sm-6 col-md-4">Old Scheme</div>
+                                                            <div class="col-6 col-sm-6 col-md-4">New Scheme</div>
+                                                         </div>
+                                                         <div class="calc-sub-amount calc-sub-content">
+                                                            <div class="d-flex hra-res-with-div">
+                                                               <span class="calc-txt-lbl d-inline-flex col-12 col-sm-12 col-md-4"> Gross Total Income </span>
+                                                               <span class="calc-txt-val d-inline-flex col-6 col-sm-6 col-md-4"> &#8377;&nbsp;<span class="oldGrossTotal"> 0</span> </span>
+                                                               <span class="calc-txt-val d-inline-flex col-6 col-sm-6 col-md-4"> &#8377;&nbsp;<span class="newGrossTotal"> 0</span> </span>
+                                                            </div>
+                                                            <div class="d-flex hra-res-with-div">
+                                                               <span class="calc-txt-lbl d-inline-flex col-12 col-sm-12 col-md-4"> Total Deductions </span>
+                                                               <span class="calc-txt-val d-inline-flex col-6 col-sm-6 col-md-4"> &#8377;&nbsp;<span class="oldTotalDeduction"> 0</span> </span>
+                                                               <span class="calc-txt-val d-inline-flex col-6 col-sm-6 col-md-4"> &#8377;&nbsp;<span class="newTotalDeduction"> 0</span> </span>
+                                                            </div>
+                                                            <div class="d-flex hra-res-with-div">
+                                                               <span class="calc-txt-lbl d-inline-flex col-12 col-sm-12 col-md-4"> Tax Payable </span>
+                                                               <span class="calc-txt-val d-inline-flex col-6 col-sm-6 col-md-4"> &#8377;&nbsp;<span class="oldTaxPayable"> 0</span> </span>
+                                                               <span class="calc-txt-val d-inline-flex col-6 col-sm-6 col-md-4"> &#8377;&nbsp;<span class="newTaxPayable"> 0</span> </span>
+                                                            </div>
+                                                         </div>
+                                                         <div class="calc-bottom-content hra-bottom-content p-0">
+                                                            <div style="background-color: #c7222a" class="hra-bottom-card" style="margin: 0 auto">
+                                                               <p>
+                                                                  You should opt for <span class="rec-schemeName">New scheme</span> as it will provide you benefit of <span class="amount"> ₹ <span class="savingAmount">20000</span> </span> over <span class="schemeName">old scheme</span>
+                                                               </p>
+                                                            </div>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                   <div class="reccommendation-btn col-12 text-center">
+                                                      <button type="button" class="rec-btn btn btn-primary">View Reccomendations</button>
+                                                   </div>
+                                                </div>
+                                                <div class="reccommendations-section col-12">
+                                                   <div class="reccommendation-heading">
+                                                      <h5>Our Recommendations</h5>
+                                                   </div>
+                                                   <div class="reccomendations">
+                                                      <div class="reccomendation reccomend80C">
+                                                         <div class="reccomend-text col-12 col-sm-7 col-md-9">
+                                                            Save Tax with ELSS fund under <span class="text-nowrap">80 C</span>, you could invest another <span class="amount">&#8377; <span class="80cAmount">45,000</span></span>
+                                                         </div>
+                                                         <div class="reccomend-btn col-12 col-sm-5 col-md-3 text-right">
+                                                            <a href="https://mutualfund.adityabirlacapital.com/tax-saving-solutions?leadSource=abcofcalculatorblog" target="_blank"><button type="button" class="btn">Invest Now</button></a>
+                                                         </div>
+                                                      </div>
+                                                      <div class="reccomendation reccomend80D">
+                                                         <div class="reccomend-text col-12 col-sm-7 col-md-9">
+                                                            You could get further deduction of upto <span class="amount">&#8377; <span class="80dAmount">25,000</span></span> under <span class="text-nowrap">Section 80 D</span>, if you get health insurance for yourself & loved ones
+                                                         </div>
+                                                         <div class="reccomend-btn col-12 col-sm-5 col-md-3 text-right">
+                                                            <a href="https://www.adityabirlacapital.com/healthinsurance/homepage?leadSource=abcofcalculatorblog" target="_blank"><button type="button" class="btn">Invest Now</button></a>
+                                                         </div>
+                                                      </div>
+                                                      <div class="reccomendation reccomendNPS">
+                                                         <div class="reccomend-text col-12 col-sm-7 col-md-9">
+                                                            Save over & above <span class="text-nowrap">80C</span> upto <span class="amount">&#8377; <span class="npsAmount">50,000</span></span> of tax by investing in NPS
+                                                         </div>
+                                                         <div class="reccomend-btn col-12 col-sm-5 col-md-3 text-right">
+                                                            <a href="https://pensionfund.adityabirlacapital.com/nps-calculator?leadSource=abcofcalculatorblog&ref=abcofcalculatorblog" target="_blank"> <button type="button" class="btn">Invest Now</button></a>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                   <div class="reccommendation-reset">
+                                                      <button type="button" class="btn reset">Reset</button>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="btn-section primary-btns">
+                                                <button class="back-btn" type="button"><span class="left-arrow"></span><span>Back</span></button>
+                                                <button id="next-btn" class="next-btn btnxt disabled" disabled="disabled" type="button"><span>Next Step</span><span class="right-arrow"></span></button>
+                                                <button id="calculate-btn" class="next-btn calculate-btn" type="button"><span>Calculate</span><span class="right-arrow"></span></button>
+                                             </div>
+                                          </div>
+                                       </form>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <script>
+            var black = "#000000";
+            var white = "#ffffff";
+            var primary = "#C91429";
+
+            var dev_light = "dev_light";
+            var dev_reg = "dev_reg";
+            var dev_med = "dev_med";
+            var dev_semi_bold = "dev_semi_bold";
+            var dev_bold = "dev_bold";
+
+            document.addEventListener("DOMContentLoaded", function () {
+               var mobileaccordionItems = document.querySelectorAll(".footer_mobile_acc_item");
+
+               mobileaccordionItems.forEach(function (item) {
+                  item.addEventListener("click", function () {
+                     // Check if the current item already has the class
+                     const isActive = this.classList.contains("mobile-border-radius");
+
+                     // First, remove the class from all items
+                     mobileaccordionItems.forEach(function (el) {
+                        el.classList.remove("mobile-border-radius");
+                     });
+
+                     // If the current item did not have the class already, add it
+                     if (!isActive) {
+                        this.classList.add("mobile-border-radius");
+                     }
+                  });
+               });
+            });
+
+            // FOOTER URL TABS JS STARTS
+            var tabLinks = document.querySelectorAll(".footer_right_Wrapper_main_tabs .nav-link");
+            var tabContents = document.querySelectorAll(".footer_right_Wrapper_main_tabs .tab-pane");
+
+            tabLinks.forEach(function (tabLink) {
+               tabLink.addEventListener("click", function (e) {
+                  // Remove active class from all tabs
+                  tabLinks.forEach(function (link) {
+                     link.classList.remove("active");
+                  });
+
+                  // Add active class to the clicked tab
+                  e.target.classList.add("active");
+
+                  // Hide other tab contents
+                  tabContents.forEach(function (tabContent) {
+                     tabContent.classList.remove("show", "active");
+                  });
+
+                  // Show the corresponding tab content
+                  var targetTabContentId = e.target.getAttribute("data-bs-target").replace("#", "");
+                  var targetTabContent = document.getElementById(targetTabContentId);
+                  if (targetTabContent) {
+                     targetTabContent.classList.add("show", "active");
+                  }
+               });
+            });
+
+            // FOOTER URL TABS JS ENDS
+         </script>
+      </div>
+
+      <script type="text/javascript" src="https://www.adityabirlacapital.com/abc-of-calculators/assests/js/common.min.js" defer></script>
+      <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5d789b45ab6f1000123c87d7&product=inline-share-buttons" defer></script>
+      <script type="text/javascript">
+         if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) document.write('<script src="https://cdn.polyfill.io/v2/polyfill.min.js"><\/script>');
+      </script>
+      <script src="https://www.adityabirlacapital.com/abc-of-calculators/assests/js/income-tax-calculator.js" defer></script>
+      <script src="https://www.adityabirlacapital.com/abc-of-calculators/assests/js/links.js"></script>
+   </body>
+</html>

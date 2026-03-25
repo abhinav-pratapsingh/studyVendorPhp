@@ -78,9 +78,9 @@
          </div>
       </div>
       <div class="d-md-flex justify-content-md-between copyright text-center">
-         <p>Copyright © 2024 Study Wander.</p>
+         <p>Copyright © 2026 Study Wander.</p>
 
-         <p>Developed By <a href="https://www.ankdevelopment.in" target="_blank"> Ank Development </a></p>
+         <p>Developed By <a href="https://www.brandsbarrel.com" target="_blank"> Brands Barrel Development </a></p>
       </div>
    </div>
 </footer>

@@ -43,6 +43,7 @@
                         <li><a href="./">Home</a></li>
                         <li><a href="about-us">About</a></li>
                         <li><a href="contact-us">Contact Us</a></li>
+                        <li><a href="partner-registration">Partner With Us</a></li>
                         <!-- <li><a href="#">Course</a></li> -->
                         <li><a href="all-blog">Our Blogs</a></li>
                      </ul>
@@ -80,7 +81,7 @@
       <div class="d-md-flex justify-content-md-between copyright text-center">
          <p>Copyright © 2026 Study Wander.</p>
 
-         <p>Developed By <a href="https://www.brandsbarrel.com" target="_blank"> Brands Barrel Development </a></p>
+         <p>Developed By <a href="https://www.brandsbarrel.com" target="_blank"> Brands Barrel </a></p>
       </div>
    </div>
 </footer>

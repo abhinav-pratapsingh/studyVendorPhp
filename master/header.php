@@ -92,6 +92,7 @@
             </div>
 
             <li><a href="all-blog">Our Blog</a></li>
+            <li><a href="partner-registration">Partner With Us</a></li>
 
             <li><a href="contact-us">Contact Us</a></li>
             <li>
@@ -194,7 +195,7 @@
             </li>
 
             <li><a href="accommodation"> Accommodation</a></li>
-            <!-- <li><a href="">Partner Up</a></li> -->
+            <li><a href="partner-registration">Partner With Us</a></li>
 
             <li>
                <a href="https://studywander.edumilestones.com/career-counsellor/Nancy-Harjani" target="_blank" class="hero_btn m-0">Book Appointment</a>

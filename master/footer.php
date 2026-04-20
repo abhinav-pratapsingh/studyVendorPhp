@@ -87,7 +87,7 @@
 </footer>
 
 <section class="whatsapp-float">
-   <a href="#">
+   <a href="https://wa.me/919238383839?text=Hi%2C%20I%20want%20to%20build%20a%20website">
       <img src="img/icon/whatsapp.png" alt="" />
    </a>
 </section>
